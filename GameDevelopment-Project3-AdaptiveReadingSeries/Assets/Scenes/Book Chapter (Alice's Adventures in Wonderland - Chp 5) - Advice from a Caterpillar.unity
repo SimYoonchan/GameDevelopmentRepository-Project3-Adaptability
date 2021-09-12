@@ -1,0 +1,1206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &82276439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340275006773, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &104379308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340244057806, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &841439374 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339910108652, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &906627047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339978607237, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &993937539 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339757602273, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1074279340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341287358158, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1142872455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341353571557, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1217944567 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341143692949, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1230823838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8343344849195800674, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 766af0313affc467283da9b34ea0d9d3, type: 3}
+--- !u!114 &1300994228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+    type: 3}
+  m_PrefabInstance: {fileID: 7354263485538077296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021b0c60c8e9b4cdebcac91b2d63822e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1644966715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340717194841, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1683870388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340820963286, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1758625967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340611456461, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1849564596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849564599}
+  - component: {fileID: 1849564598}
+  - component: {fileID: 1849564597}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1849564597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1849564598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1849564599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2006006439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641341026719685, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &289641340214144354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 289641339956157444, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Name
+      value: Adaptive Book Reading Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641340717194847, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 289641341026719691, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 197150.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 99535.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 347549475896723619, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 941596333499496976, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 1036049174167290789, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 1036049175013743383, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 1491917284861088266, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 3003418131840803788, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 3246906744201496470, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 6041120977709922307, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 6557661318240013034, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 7323256163634425567, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3287821922221219435}
+    - target: {fileID: 7323256163634425567, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToBookHubAliceAdventureInWonderland
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920592361882099463, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 9035645599115281861, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3313db844cb7e4ef39fba4b18f1dd31a, type: 3}
+--- !u!1001 &337122924084130182
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755749, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene Loader Game Object
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0482697b64f14d0da0fb8f3369a5d77, type: 3}
+--- !u!1 &749227563052658373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1036049174167290791, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1202841111124672362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1491917284861088264, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1639021353037088278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_Name
+      value: Adaptive Reading Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitle
+      value: "Alice\u2019s Adventures in Wonderland"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapter
+      value: Chapter 5 - Advice from a Caterpillar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitleUI
+      value: 
+      objectReference: {fileID: 1142872455}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenUI
+      value: 
+      objectReference: {fileID: 104379308}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapterUI
+      value: 
+      objectReference: {fileID: 841439374}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: endPosition.x
+      value: -85198.555
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: pauseScreenUI
+      value: 
+      objectReference: {fileID: 1683870388}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: chapterFullText
+      value: "The Caterpillar and Alice looked at each other for some time in silence:
+        at last the Caterpillar took the hookah out of its mouth, and addressed her
+        in a languid, sleepy voice. \u201CWho are you?\u201D said the Caterpillar.
+        This was not an encouraging opening for a conversation. Alice replied, rather
+        shyly, \u201CI\u2014I hardly know, sir, just at present\u2014at least I know
+        who I was when I got up this morning, but I think I must have been changed
+        several times since then.\u201D \u201CWhat do you mean by that?\u201D said
+        the Caterpillar sternly. \u201CExplain yourself!\u201D \u201CI can\u2019t
+        explain myself, I\u2019m afraid, sir,\u201D said Alice, \u201Cbecause I\u2019m
+        not myself, you see.\u201D \u201CI don\u2019t see,\u201D said the Caterpillar.
+        \u201CI\u2019m afraid I can\u2019t put it more clearly,\u201D Alice replied
+        very politely, \u201Cfor I can\u2019t understand it myself to begin with;
+        and being so many different sizes in a day is very confusing.\u201D \u201CIt
+        isn\u2019t,\u201D said the Caterpillar. \u201CWell, perhaps you haven\u2019t
+        found it so yet,\u201D said Alice; \u201Cbut when you have to turn into a
+        chrysalis\u2014you will some day, you know\u2014and then after that into
+        a butterfly, I should think you\u2019ll feel it a little queer, won\u2019t
+        you?\u201D \u201CNot a bit,\u201D said the Caterpillar. \u201CWell, perhaps
+        your feelings may be different,\u201D said Alice; \u201Call I know is, it
+        would feel very queer to me.\u201D \u201CYou!\u201D said the Caterpillar
+        contemptuously. \u201CWho are you?\u201D Which brought them back again to
+        the beginning of the conversation. Alice felt a little irritated at the Caterpillar\u2019s
+        making such very short remarks, and she drew herself up and said, very gravely,
+        \u201CI think, you ought to tell me who you are, first.\u201D \u201CWhy?\u201D
+        said the Caterpillar. Here was another puzzling question; and as Alice could
+        not think of any good reason, and as the Caterpillar seemed to be in a very
+        unpleasant state of mind, she turned away. \u201CCome back!\u201D the Caterpillar
+        called after her. \u201CI\u2019ve something important to say!\u201D This
+        sounded promising, certainly: Alice turned and came back again.\u201CKeep
+        your temper,\u201D said the Caterpillar. \u201CIs that all?\u201D said Alice,
+        swallowing down her anger as well as she could. \u201CNo,\u201D said the
+        Caterpillar. Alice thought she might as well wait, as she had nothing else
+        to do, and perhaps after all it might tell her something worth hearing. For
+        some minutes it puffed away without speaking, but at last it unfolded its
+        arms, took the hookah out of its mouth again, and said, \u201CSo you think
+        you\u2019re changed, do you?\u201D \u201CI\u2019m afraid I am, sir,\u201D
+        said Alice; \u201CI can\u2019t remember things as I used\u2014and I don\u2019t
+        keep the same size for ten minutes together!\u201D \u201CCan\u2019t remember
+        what things?\u201D said the Caterpillar. \u201CWell, I\u2019ve tried to say
+        \u201CHow doth the little busy bee,\u201D but it all came different!\u201D
+        Alice replied in a very melancholy voice. \u201CRepeat, \u201CYou are old,
+        Father William,\u2019\u201D said the Caterpillar. Alice folded her hands,
+        and began:\u2014\u201CYou are old, Father William,\u201D the young man said,
+        \u201CAnd your hair has become very white; And yet you incessantly stand
+        on your head\u2014 Do you think, at your age, it is right?\u201D \u201CIn
+        my youth,\u201D Father William replied to his son, \u201CI feared it might
+        injure the brain; But, now that I\u2019m perfectly sure I have none, Why,
+        I do it again and again.\u201D \u201CYou are old,\u201D said the youth, \u201Cas
+        I mentioned before, And have grown most uncommonly fat; Yet you turned a
+        back-somersault in at the door\u2014 Pray, what is the reason of that?\u201D
+        \u201CIn my youth,\u201D said the sage, as he shook his grey locks, \u201CI
+        kept all my limbs very supple By the use of this ointment\u2014one shilling
+        the box Allow me to sell you a couple?\u201D \u201CYou are old,\u201D said
+        the youth, \u201Cand your jaws are too weak For anything tougher than suet;
+        Yet you finished the goose, with the bones and the beak\u2014 Pray, how did
+        you manage to do it?\u201D \u201CIn my youth,\u201D said his father, \u201CI
+        took to the law, And argued each case with my wife; And the muscular strength,
+        which it gave to my jaw, Has lasted the rest of my life.\u201D \u201CYou
+        are old,\u201D said the youth, \u201Cone would hardly suppose That your eye
+        was as steady as ever; Yet you balanced an eel on the end of your nose\u2014
+        What made you so awfully clever?\u201D \u201CI have answered three questions,
+        and that is enough,\u201D Said his father; \u201Cdon\u2019t give yourself
+        airs! Do you think I can listen all day to such stuff? Be off, or I\u2019ll
+        kick you down stairs!\u201D \u201CThat is not said right,\u201D said the
+        Caterpillar. \u201CNot quite right, I\u2019m afraid,\u201D said Alice, timidly;
+        \u201Csome of the words have got altered.\u201D \u201CIt is wrong from beginning
+        to end,\u201D said the Caterpillar decidedly, and there was silence for some
+        minutes. The Caterpillar was the first to speak. \u201CWhat size do you want
+        to be?\u201D it asked. \u201COh, I\u2019m not particular as to size,\u201D
+        Alice hastily replied; \u201Conly one doesn\u2019t like changing so often,
+        you know.\u201D \u201CI don\u2019t know,\u201D said the Caterpillar. Alice
+        said nothing: she had never been so much contradicted in her life before,
+        and she felt that she was losing her temper. \u201CAre you content now?\u201D
+        said the Caterpillar. \u201CWell, I should like to be a little larger, sir,
+        if you wouldn\u2019t mind,\u201D said Alice: \u201Cthree inches is such a
+        wretched height to be.\u201D \u201CIt is a very good height indeed!\u201D
+        said the Caterpillar angrily, rearing itself upright as it spoke (it was
+        exactly three inches high).\u201CBut I\u2019m not used to it!\u201D pleaded
+        poor Alice in a piteous tone. And she thought of herself, \u201CI wish the
+        creatures wouldn\u2019t be so easily offended!\u201D \u201CYou\u2019ll get
+        used to it in time,\u201D said the Caterpillar; and it put the hookah into
+        its mouth and began smoking again. This time Alice waited patiently until
+        it chose to speak again. In a minute or two the Caterpillar took the hookah
+        out of its mouth and yawned once or twice, and shook itself. Then it got
+        down off the mushroom, and crawled away in the grass, merely remarking as
+        it went, \u201COne side will make you grow taller, and the other side will
+        make you grow shorter.\u201D \u201COne side of what? The other side of what?\u201D
+        thought Alice to herself. \u201COf the mushroom,\u201D said the Caterpillar,
+        just as if she had asked it aloud; and in another moment it was out of sight.
+        Alice remained looking thoughtfully at the mushroom for a minute, trying
+        to make out which were the two sides of it; and as it was perfectly round,
+        she found this a very difficult question. However, at last she stretched
+        her arms round it as far as they would go, and broke off a bit of the edge
+        with each hand. \u201CAnd now which is which?\u201D she said to herself,
+        and nibbled a little of the right-hand bit to try the effect: the next moment
+        she felt a violent blow underneath her chin: it had struck her foot! She
+        was a good deal frightened by this very sudden change, but she felt that
+        there was no time to be lost, as she was shrinking rapidly; so she set to
+        work at once to eat some of the other bit. Her chin was pressed so closely
+        against her foot, that there was hardly room to open her mouth; but she did
+        it at last, and managed to swallow a morsel of the left hand bit. **********
+        \u201CCome, my head\u2019s free at last!\u201D said Alice in a tone of delight,
+        which changed into alarm in another moment, when she found that her shoulders
+        were nowhere to be found: all she could see, when she looked down, was an
+        immense length of neck, which seemed to rise like a stalk out of a sea of
+        green leaves that lay far below her. \u201CWhat can all that green stuff
+        be?\u201D said Alice. \u201CAnd where have my shoulders got to? And oh, my
+        poor hands, how is it I can\u2019t see you?\u201D She was moving them about
+        as she spoke, but no result seemed to follow, except a little shaking among
+        the distant green leaves. As there seemed to be no chance of getting her
+        hands up to her head, she tried to get her head down to them, and was delighted
+        to find that her neck would bend about easily in any direction, like a serpent.
+        She had just succeeded in curving it down into a graceful zigzag, and was
+        going to dive in among the leaves, which she found to be nothing but the
+        tops of the trees under which she had been wandering, when a sharp hiss made
+        her draw back in a hurry: a large pigeon had flown into her face, and was
+        beating her violently with its wings. \u201CSerpent!\u201D screamed the Pigeon.
+        \u201CI\u2019m not a serpent!\u201D said Alice indignantly. \u201CLet me
+        alone!\u201D \u201CSerpent, I say again!\u201D repeated the Pigeon, but in
+        a more subdued tone, and added with a kind of sob, \u201CI\u2019ve tried
+        every way, and nothing seems to suit them!\u201D \u201CI haven\u2019t the
+        least idea what you\u2019re talking about,\u201D said Alice. \u201CI\u2019ve
+        tried the roots of trees, and I\u2019ve tried banks, and I\u2019ve tried
+        hedges,\u201D the Pigeon went on, without attending to her; \u201Cbut those
+        serpents! There\u2019s no pleasing them!\u201D Alice was more and more puzzled,
+        but she thought there was no use in saying anything more till the Pigeon
+        had finished. \u201CAs if it wasn\u2019t trouble enough hatching the eggs,\u201D
+        said the Pigeon; \u201Cbut I must be on the look-out for serpents night and
+        day! Why, I haven\u2019t had a wink of sleep these three weeks!\u201D \u201CI\u2019m
+        very sorry you\u2019ve been annoyed,\u201D said Alice, who was beginning
+        to see its meaning. \u201CAnd just as I\u2019d taken the highest tree in
+        the wood,\u201D continued the Pigeon, raising its voice to a shriek, \u201Cand
+        just as I was thinking I should be free of them at last, they must needs
+        come wriggling down from the sky! Ugh, Serpent!\u201D \u201CBut I\u2019m
+        not a serpent, I tell you!\u201D said Alice. \u201CI\u2019m a\u2014I\u2019m
+        a\u2014\u201D\u201CWell! What are you?\u201D said the Pigeon. \u201CI can
+        see you\u2019re trying to invent something!\u201D \u201CI\u2014I\u2019m a
+        little girl,\u201D said Alice, rather doubtfully, as she remembered the number
+        of changes she had gone through that day. \u201CA likely story indeed!\u201D
+        said the Pigeon in a tone of the deepest contempt. \u201CI\u2019ve seen a
+        good many little girls in my time, but never one with such a neck as that!
+        No, no! You\u2019re a serpent; and there\u2019s no use denying it. I suppose
+        you\u2019ll be telling me next that you never tasted an egg!\u201D \u201CI
+        have tasted eggs, certainly,\u201D said Alice, who was a very truthful child;
+        \u201Cbut little girls eat eggs quite as much as serpents do, you know.\u201D
+        \u201CI don\u2019t believe it,\u201D said the Pigeon; \u201Cbut if they do,
+        why then they\u2019re a kind of serpent, that\u2019s all I can say.\u201D
+        This was such a new idea to Alice, that she was quite silent for a minute
+        or two, which gave the Pigeon the opportunity of adding, \u201CYou\u2019re
+        looking for eggs, I know that well enough; and what does it matter to me
+        whether you\u2019re a little girl or a serpent?\u201D \u201CIt matters a
+        good deal to me,\u201D said Alice hastily; \u201Cbut I\u2019m not looking
+        for eggs, as it happens; and if I was, I shouldn\u2019t want yours: I don\u2019t
+        like them raw.\u201D \u201CWell, be off, then!\u201D said the Pigeon in a
+        sulky tone, as it settled down again into its nest. Alice crouched down among
+        the trees as well as she could, for her neck kept getting entangled among
+        the branches, and every now and then she had to stop and untwist it. After
+        a while she remembered that she still held the pieces of mushroom in her
+        hands, and she set to work very carefully, nibbling first at one and then
+        at the other, and growing sometimes taller and sometimes shorter, until she
+        had succeeded in bringing herself down to her usual height. It was so long
+        since she had been anything near the right size, that it felt quite strange
+        at first; but she got used to it in a few minutes, and began talking to herself,
+        as usual. \u201CCome, there\u2019s half my plan done now! How puzzling all
+        these changes are! I\u2019m never sure what I\u2019m going to be, from one
+        minute to another! However, I\u2019ve got back to my right size: the next
+        thing is, to get into that beautiful garden\u2014how is that to be done,
+        I wonder?\u201D As she said this, she came suddenly upon an open place, with
+        a little house in it about four feet high. \u201CWhoever lives there,\u201D
+        thought Alice, \u201Cit\u2019ll never do to come upon them this size: why,
+        I should frighten them out of their wits!\u201D So she began nibbling at
+        the righthand bit again, and did not venture to go near the house till she
+        had brought herself down to nine inches high."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: startPosition.x
+      value: 85198.555
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownFontSize
+      value: 
+      objectReference: {fileID: 6842987603074280008}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: currentPosition.x
+      value: 85198.555
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: totalTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 993937539}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: currentTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 906627047}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: widthOfTextboxInUnity
+      value: 168477.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReadingTextbox
+      value: 
+      objectReference: {fileID: 1074279340}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPlayButton
+      value: 
+      objectReference: {fileID: 1202841111124672362}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenReaderPlayerUI
+      value: 
+      objectReference: {fileID: 1758625967}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPauseButton
+      value: 
+      objectReference: {fileID: 749227563052658373}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownWordsPerMinuteRates
+      value: 
+      objectReference: {fileID: 6842987602774036645}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownAverageCharactersPerWord
+      value: 
+      objectReference: {fileID: 1217944567}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: numberOfCharactersIncludingSpaces
+      value: 11653
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: timeRequiredForTextboxToLeaveOffScreen
+      value: 2056.4119
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: distanceForTextboxToBeUpAgainstScreenRightEdge
+      value: 85198.555
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7415091ac6d37496e8632c55360e5172, type: 3}
+--- !u!1 &2957272005655145206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3246906744201496468, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3287821922221219435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2958023954298580973, guid: b0482697b64f14d0da0fb8f3369a5d77,
+    type: 3}
+  m_PrefabInstance: {fileID: 337122924084130182}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ebba4aaed1d4377bc55bc162fc5520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4253378664226371484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5086594063347104557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253378664226371484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01641e502ff5461292b0e6f4a2c3fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6328503907030144355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6041120977709922305, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6842987602774036645 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6553352891103772103, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6842987603074280008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6553352890266650410, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7354263485538077296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7354263484690076355, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_Name
+      value: Tutorial Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: skipButton
+      value: 
+      objectReference: {fileID: 2957272005655145206}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: finishButton
+      value: 
+      objectReference: {fileID: 1644966715}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 6328503907030144355}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: previousButton
+      value: 
+      objectReference: {fileID: 2006006439}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialScreenUI
+      value: 
+      objectReference: {fileID: 82276439}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialInstructionsTextbox
+      value: 
+      objectReference: {fileID: 7501891758732398719}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: adaptiveReadingManagerScript
+      value: 
+      objectReference: {fileID: 4253378664226371484}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: efe028b93f51c4eb589c0304fc0b8e44, type: 3}
+--- !u!114 &7501891758732398719 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7789276329498098973, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

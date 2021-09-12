@@ -1,0 +1,1483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &82276439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340275006773, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &104379308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340244057806, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &841439374 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339910108652, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &906627047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339978607237, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &993937539 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339757602273, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1074279340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341287358158, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1142872455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341353571557, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1217944567 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341143692949, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1230823838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8343344849195800674, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 766af0313affc467283da9b34ea0d9d3, type: 3}
+--- !u!114 &1300994228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+    type: 3}
+  m_PrefabInstance: {fileID: 7354263485538077296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021b0c60c8e9b4cdebcac91b2d63822e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1644966715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340717194841, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1683870388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340820963286, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1758625967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340611456461, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1849564596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849564599}
+  - component: {fileID: 1849564598}
+  - component: {fileID: 1849564597}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1849564597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1849564598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1849564599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2006006439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641341026719685, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &289641340214144354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 289641339956157444, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Name
+      value: Adaptive Book Reading Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641340717194847, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 289641341026719691, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 468651.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 235285.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 347549475896723619, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 941596333499496976, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 1036049174167290789, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 1036049175013743383, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 1491917284861088266, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 3003418131840803788, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 3246906744201496470, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 6041120977709922307, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 6557661318240013034, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 7323256163634425567, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3287821922221219435}
+    - target: {fileID: 7323256163634425567, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToBookHubTheGreatGatsby
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920592361882099463, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 9035645599115281861, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3313db844cb7e4ef39fba4b18f1dd31a, type: 3}
+--- !u!1001 &337122924084130182
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755749, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene Loader Game Object
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0482697b64f14d0da0fb8f3369a5d77, type: 3}
+--- !u!1 &749227563052658373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1036049174167290791, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1202841111124672362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1491917284861088264, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1639021353037088278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_Name
+      value: Adaptive Reading Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitle
+      value: The Great Gatsby
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapter
+      value: Chapter 3 - III
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitleUI
+      value: 
+      objectReference: {fileID: 1142872455}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenUI
+      value: 
+      objectReference: {fileID: 104379308}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapterUI
+      value: 
+      objectReference: {fileID: 841439374}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: endPosition.x
+      value: -233880
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: pauseScreenUI
+      value: 
+      objectReference: {fileID: 1683870388}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: chapterFullText
+      value: "There was music from my neighbour\u2019s house through the summer nights.
+        In his blue gardens men and girls came and went like moths among the whisperings
+        and the champagne and the stars. At high tide in the afternoon I watched
+        his guests diving from the tower of his raft, or taking the sun on the hot
+        sand of his beach while his two motorboats slit the waters of the Sound,
+        drawing aquaplanes over cataracts of foam. On weekends his Rolls-Royce became
+        an omnibus, bearing parties to and from the city between nine in the morning
+        and long past midnight, while his station wagon scampered like a brisk yellow
+        bug to meet all trains. And on Mondays eight servants, including an extra
+        gardener, toiled all day with mops and scrubbing-brushes and hammers and
+        garden-shears, repairing the ravages of the night before. Every Friday five
+        crates of oranges and lemons arrived from a fruiterer in New York\u2014every
+        Monday these same oranges and lemons left his back door in a pyramid of pulpless
+        halves. There was a machine in the kitchen which could extract the juice
+        of two hundred oranges in half an hour if a little button was pressed two
+        hundred times by a butler\u2019s thumb. At least once a fortnight a corps
+        of caterers came down with several hundred feet of canvas and enough coloured
+        lights to make a Christmas tree of Gatsby\u2019s enormous garden. On buffet
+        tables, garnished with glistening hors-d\u2019oeuvre, spiced baked hams crowded
+        against salads of harlequin designs and pastry pigs and turkeys bewitched
+        to a dark gold. In the main hall a bar with a real brass rail was set up,
+        and stocked with gins and liquors and with cordials so long forgotten that
+        most of his female guests were too young to know one from another. By seven
+        o\u2019clock the orchestra has arrived, no thin five-piece affair, but a
+        whole pitful of oboes and trombones and saxophones and viols and cornets
+        and piccolos, and low and high drums. The last swimmers have come in from
+        the beach now and are dressing upstairs; the cars from New York are parked
+        five deep in the drive, and already the halls and salons and verandas are
+        gaudy with primary colours, and hair bobbed in strange new ways, and shawls
+        beyond the dreams of Castile. The bar is in full swing, and floating rounds
+        of cocktails permeate the garden outside, until the air is alive with chatter
+        and laughter, and casual innuendo and introductions forgotten on the spot,
+        and enthusiastic meetings between women who never knew each other\u2019s
+        names. The lights grow brighter as the earth lurches away from the sun, and
+        now the orchestra is playing yellow cocktail music, and the opera of voices
+        pitches a key higher. Laughter is easier minute by minute, spilled with prodigality,
+        tipped out at a cheerful word. The groups change more swiftly, swell with
+        new arrivals, dissolve and form in the same breath; already there are wanderers,
+        confident girls who weave here and there among the stouter and more stable,
+        become for a sharp, joyous moment the centre of a group, and then, excited
+        with triumph, glide on through the sea-change of faces and voices and colour
+        under the constantly changing light. Suddenly one of these gypsies, in trembling
+        opal, seizes a cocktail out of the air, dumps it down for courage and, moving
+        her hands like Frisco, dances out alone on the canvas platform. A momentary
+        hush; the orchestra leader varies his rhythm obligingly for her, and there
+        is a burst of chatter as the erroneous news goes around that she is Gilda
+        Gray\u2019s understudy from the Follies. The party has begun. I believe that
+        on the first night I went to Gatsby\u2019s house I was one of the few guests
+        who had actually been invited. People were not invited\u2014they went there.
+        They got into automobiles which bore them out to Long Island, and somehow
+        they ended up at Gatsby\u2019s door. Once there they were introduced by somebody
+        who knew Gatsby, and after that they conducted themselves according to the
+        rules of behaviour associated with an amusement park. Sometimes they came
+        and went without having met Gatsby at all, came for the party with a simplicity
+        of heart that was its own ticket of admission. I had been actually invited.
+        A chauffeur in a uniform of robin\u2019s-egg blue crossed my lawn early that
+        Saturday morning with a surprisingly formal note from his employer: the honour
+        would be entirely Gatsby\u2019s, it said, if I would attend his \u201Clittle
+        party\u201D that night. He had seen me several times, and had intended to
+        call on me long before, but a peculiar combination of circumstances had prevented
+        it\u2014signed Jay Gatsby, in a majestic hand. Dressed up in white flannels
+        I went over to his lawn a little after seven, and wandered around rather
+        ill at ease among swirls and eddies of people I didn\u2019t know\u2014though
+        here and there was a face I had noticed on the commuting train. I was immediately
+        struck by the number of young Englishmen dotted about; all well dressed,
+        all looking a little hungry, and all talking in low, earnest voices to solid
+        and prosperous Americans. I was sure that they were selling something: bonds
+        or insurance or automobiles. They were at least agonizingly aware of the
+        easy money in the vicinity and convinced that it was theirs for a few words
+        in the right key. As soon as I arrived I made an attempt to find my host,
+        but the two or three people of whom I asked his whereabouts stared at me
+        in such an amazed way, and denied so vehemently any knowledge of his movements,
+        that I slunk off in the direction of the cocktail table\u2014the only place
+        in the garden where a single man could linger without looking purposeless
+        and alone. I was on my way to get roaring drunk from sheer embarrassment
+        when Jordan Baker came out of the house and stood at the head of the marble
+        steps, leaning a little backward and looking with contemptuous interest down
+        into the garden. Welcome or not, I found it necessary to attach myself to
+        someone before I should begin to address cordial remarks to the passersby.
+        \u201CHello!\u201D I roared, advancing toward her. My voice seemed unnaturally
+        loud across the garden. \u201CI thought you might be here,\u201D she responded
+        absently as I came up. \u201CI remembered you lived next door to\u2014\u201D
+        She held my hand impersonally, as a promise that she\u2019d take care of
+        me in a minute, and gave ear to two girls in twin yellow dresses, who stopped
+        at the foot of the steps. \u201CHello!\u201D they cried together. \u201CSorry
+        you didn\u2019t win.\u201D That was for the golf tournament. She had lost
+        in the finals the week before. \u201CYou don\u2019t know who we are,\u201D
+        said one of the girls in yellow, \u201Cbut we met you here about a month
+        ago.\u201D \u201CYou\u2019ve dyed your hair since then,\u201D remarked Jordan,
+        and I started, but the girls had moved casually on and her remark was addressed
+        to the premature moon, produced like the supper, no doubt, out of a caterer\u2019s
+        basket. With Jordan\u2019s slender golden arm resting in mine, we descended
+        the steps and sauntered about the garden. A tray of cocktails floated at
+        us through the twilight, and we sat down at a table with the two girls in
+        yellow and three men, each one introduced to us as Mr. Mumble. \u201CDo you
+        come to these parties often?\u201D inquired Jordan of the girl beside her.
+        \u201CThe last one was the one I met you at,\u201D answered the girl, in
+        an alert confident voice. She turned to her companion: \u201CWasn\u2019t
+        it for you, Lucille?\u201D It was for Lucille, too. \u201CI like to come,\u201D
+        Lucille said. \u201CI never care what I do, so I always have a good time.
+        When I was here last I tore my gown on a chair, and he asked me my name and
+        address\u2014inside of a week I got a package from Croirier\u2019s with a
+        new evening gown in it.\u201D \u201CDid you keep it?\u201D asked Jordan.
+        \u201CSure I did. I was going to wear it tonight, but it was too big in the
+        bust and had to be altered. It was gas blue with lavender beads. Two hundred
+        and sixty-five dollars.\u201D \u201CThere\u2019s something funny about a
+        fellow that\u2019ll do a thing like that,\u201D said the other girl eagerly.
+        \u201CHe doesn\u2019t want any trouble with anybody.\u201D \u201CWho doesn\u2019t?\u201D
+        I inquired. \u201CGatsby. Somebody told me\u2014\u201D The two girls and
+        Jordan leaned together confidentially. \u201CSomebody told me they thought
+        he killed a man once.\u201D A thrill passed over all of us. The three Mr.
+        Mumbles bent forward and listened eagerly. \u201CI don\u2019t think it\u2019s
+        so much that,\u201D argued Lucille sceptically; \u201CIt\u2019s more that
+        he was a German spy during the war.\u201D One of the men nodded in confirmation.
+        \u201CI heard that from a man who knew all about him, grew up with him in
+        Germany,\u201D he assured us positively. \u201COh, no,\u201D said the first
+        girl, \u201Cit couldn\u2019t be that, because he was in the American army
+        during the war.\u201D As our credulity switched back to her she leaned forward
+        with enthusiasm. \u201CYou look at him sometimes when he thinks nobody\u2019s
+        looking at him. I\u2019ll bet he killed a man.\u201D She narrowed her eyes
+        and shivered. Lucille shivered. We all turned and looked around for Gatsby.
+        It was testimony to the romantic speculation he inspired that there were
+        whispers about him from those who had found little that it was necessary
+        to whisper about in this world. The first supper\u2014there would be another
+        one after midnight\u2014was now being served, and Jordan invited me to join
+        her own party, who were spread around a table on the other side of the garden.
+        There were three married couples and Jordan\u2019s escort, a persistent undergraduate
+        given to violent innuendo, and obviously under the impression that sooner
+        or later Jordan was going to yield him up her person to a greater or lesser
+        degree. Instead of rambling, this party had preserved a dignified homogeneity,
+        and assumed to itself the function of representing the staid nobility of
+        the countryside\u2014East Egg condescending to West Egg and carefully on
+        guard against its spectroscopic gaiety. \u201CLet\u2019s get out,\u201D whispered
+        Jordan, after a somehow wasteful and inappropriate half-hour; \u201Cthis
+        is much too polite for me.\u201D We got up, and she explained that we were
+        going to find the host: I had never met him, she said, and it was making
+        me uneasy. The undergraduate nodded in a cynical, melancholy way. The bar,
+        where we glanced first, was crowded, but Gatsby was not there. She couldn\u2019t
+        find him from the top of the steps, and he wasn\u2019t on the veranda. On
+        a chance we tried an important-looking door, and walked into a high Gothic
+        library, panelled with carved English oak, and probably transported complete
+        from some ruin overseas. A stout, middle-aged man, with enormous owl-eyed
+        spectacles, was sitting somewhat drunk on the edge of a great table, staring
+        with unsteady concentration at the shelves of books. As we entered he wheeled
+        excitedly around and examined Jordan from head to foot. \u201CWhat do you
+        think?\u201D he demanded impetuously. \u201CAbout what?\u201D He waved his
+        hand toward the bookshelves. \u201CAbout that. As a matter of fact you needn\u2019t
+        bother to ascertain. I ascertained. They\u2019re real.\u201D \u201CThe books?\u201D
+        He nodded. \u201CAbsolutely real\u2014have pages and everything. I thought
+        they\u2019d be a nice durable cardboard. Matter of fact, they\u2019re absolutely
+        real. Pages and\u2014Here! Lemme show you.\u201D Taking our scepticism for
+        granted, he rushed to the bookcases and returned with Volume One of the Stoddard
+        Lectures. \u201CSee!\u201D he cried triumphantly. \u201CIt\u2019s a bona-fide
+        piece of printed matter. It fooled me. This fella\u2019s a regular Belasco.
+        It\u2019s a triumph. What thoroughness! What realism! Knew when to stop,
+        too\u2014didn\u2019t cut the pages. But what do you want? What do you expect?\u201D
+        He snatched the book from me and replaced it hastily on its shelf, muttering
+        that if one brick was removed the whole library was liable to collapse. \u201CWho
+        brought you?\u201D he demanded. \u201COr did you just come? I was brought.
+        Most people were brought.\u201D Jordan looked at him alertly, cheerfully,
+        without answering. \u201CI was brought by a woman named Roosevelt,\u201D
+        he continued. \u201CMrs. Claud Roosevelt. Do you know her? I met her somewhere
+        last night. I\u2019ve been drunk for about a week now, and I thought it might
+        sober me up to sit in a library.\u201D \u201CHas it?\u201D \u201CA little
+        bit, I think. I can\u2019t tell yet. I\u2019ve only been here an hour. Did
+        I tell you about the books? They\u2019re real. They\u2019re\u2014\u201D \u201CYou
+        told us.\u201D We shook hands with him gravely and went back outdoors. There
+        was dancing now on the canvas in the garden; old men pushing young girls
+        backward in eternal graceless circles, superior couples holding each other
+        tortuously, fashionably, and keeping in the corners\u2014and a great number
+        of single girls dancing individually or relieving the orchestra for a moment
+        of the burden of the banjo or the traps. By midnight the hilarity had increased.
+        A celebrated tenor had sung in Italian, and a notorious contralto had sung
+        in jazz, and between the numbers people were doing \u201Cstunts\u201D all
+        over the garden, while happy, vacuous bursts of laughter rose toward the
+        summer sky. A pair of stage twins, who turned out to be the girls in yellow,
+        did a baby act in costume, and champagne was served in glasses bigger than
+        finger-bowls. The moon had risen higher, and floating in the Sound was a
+        triangle of silver scales, trembling a little to the stiff, tinny drip of
+        the banjoes on the lawn. I was still with Jordan Baker. We were sitting at
+        a table with a man of about my age and a rowdy little girl, who gave way
+        upon the slightest provocation to uncontrollable laughter. I was enjoying
+        myself now. I had taken two finger-bowls of champagne, and the scene had
+        changed before my eyes into something significant, elemental, and profound.
+        At a lull in the entertainment the man looked at me and smiled. \u201CYour
+        face is familiar,\u201D he said politely. \u201CWeren\u2019t you in the First
+        Division during the war?\u201D \u201CWhy yes. I was in the Twenty-eighth
+        Infantry.\u201D \u201CI was in the Sixteenth until June nineteen-eighteen.
+        I knew I\u2019d seen you somewhere before.\u201D We talked for a moment about
+        some wet, grey little villages in France. Evidently he lived in this vicinity,
+        for he told me that he had just bought a hydroplane, and was going to try
+        it out in the morning. \u201CWant to go with me, old sport? Just near the
+        shore along the Sound.\u201D \u201CWhat time?\u201D \u201CAny time that suits
+        you best.\u201D It was on the tip of my tongue to ask his name when Jordan
+        looked around and smiled. \u201CHaving a gay time now?\u201D she inquired.
+        \u201CMuch better.\u201D I turned again to my new acquaintance. \u201CThis
+        is an unusual party for me. I haven\u2019t even seen the host. I live over
+        there\u2014\u201D I waved my hand at the invisible hedge in the distance,
+        \u201Cand this man Gatsby sent over his chauffeur with an invitation.\u201D
+        For a moment he looked at me as if he failed to understand. \u201CI\u2019m
+        Gatsby,\u201D he said suddenly. \u201CWhat!\u201D I exclaimed. \u201COh,
+        I beg your pardon.\u201D \u201CI thought you knew, old sport. I\u2019m afraid
+        I\u2019m not a very good host.\u201D He smiled understandingly\u2014much
+        more than understandingly. It was one of those rare smiles with a quality
+        of eternal reassurance in it, that you may come across four or five times
+        in life. It faced\u2014or seemed to face\u2014the whole eternal world for
+        an instant, and then concentrated on you with an irresistible prejudice in
+        your favour. It understood you just so far as you wanted to be understood,
+        believed in you as you would like to believe in yourself, and assured you
+        that it had precisely the impression of you that, at your best, you hoped
+        to convey. Precisely at that point it vanished\u2014and I was looking at
+        an elegant young roughneck, a year or two over thirty, whose elaborate formality
+        of speech just missed being absurd. Some time before he introduced himself
+        I\u2019d got a strong impression that he was picking his words with care.
+        Almost at the moment when Mr. Gatsby identified himself a butler hurried
+        toward him with the information that Chicago was calling him on the wire.
+        He excused himself with a small bow that included each of us in turn. \u201CIf
+        you want anything just ask for it, old sport,\u201D he urged me. \u201CExcuse
+        me. I will rejoin you later.\u201D When he was gone I turned immediately
+        to Jordan\u2014constrained to assure her of my surprise. I had expected that
+        Mr. Gatsby would be a florid and corpulent person in his middle years. \u201CWho
+        is he?\u201D I demanded. \u201CDo you know?\u201D \u201CHe\u2019s just a
+        man named Gatsby.\u201D \u201CWhere is he from, I mean? And what does he
+        do?\u201D \u201CNow you\u2019re started on the subject,\u201D she answered
+        with a wan smile. \u201CWell, he told me once he was an Oxford man.\u201D
+        A dim background started to take shape behind him, but at her next remark
+        it faded away. \u201CHowever, I don\u2019t believe it.\u201D \u201CWhy not?\u201D
+        \u201CI don\u2019t know,\u201D she insisted, \u201CI just don\u2019t think
+        he went there.\u201D Something in her tone reminded me of the other girl\u2019s
+        \u201CI think he killed a man,\u201D and had the effect of stimulating my
+        curiosity. I would have accepted without question the information that Gatsby
+        sprang from the swamps of Louisiana or from the lower East Side of New York.
+        That was comprehensible. But young men didn\u2019t\u2014at least in my provincial
+        inexperience I believed they didn\u2019t\u2014drift coolly out of nowhere
+        and buy a palace on Long Island Sound. \u201CAnyhow, he gives large parties,\u201D
+        said Jordan, changing the subject with an urban distaste for the concrete.
+        \u201CAnd I like large parties. They\u2019re so intimate. At small parties
+        there isn\u2019t any privacy.\u201D There was the boom of a bass drum, and
+        the voice of the orchestra leader rang out suddenly above the echolalia of
+        the garden. \u201CLadies and gentlemen,\u201D he cried. \u201CAt the request
+        of Mr. Gatsby we are going to play for you Mr. Vladmir Tostoff\u2019s latest
+        work, which attracted so much attention at Carnegie Hall last May. If you
+        read the papers you know there was a big sensation.\u201D He smiled with
+        jovial condescension, and added: \u201CSome sensation!\u201D Whereupon everybody
+        laughed. \u201CThe piece is known,\u201D he concluded lustily, \u201Cas \u2018Vladmir
+        Tostoff\u2019s Jazz History of the World!\u2019\u200A\u201D The nature of
+        Mr. Tostoff\u2019s composition eluded me, because just as it began my eyes
+        fell on Gatsby, standing alone on the marble steps and looking from one group
+        to another with approving eyes. His tanned skin was drawn attractively tight
+        on his face and his short hair looked as though it were trimmed every day.
+        I could see nothing sinister about him. I wondered if the fact that he was
+        not drinking helped to set him off from his guests, for it seemed to me that
+        he grew more correct as the fraternal hilarity increased. When the \u201CJazz
+        History of the World\u201D was over, girls were putting their heads on men\u2019s
+        shoulders in a puppyish, convivial way, girls were swooning backward playfully
+        into men\u2019s arms, even into groups, knowing that someone would arrest
+        their falls\u2014but no one swooned backward on Gatsby, and no French bob
+        touched Gatsby\u2019s shoulder, and no singing quartets were formed with
+        Gatsby\u2019s head for one link. \u201CI beg your pardon.\u201D Gatsby\u2019s
+        butler was suddenly standing beside us. \u201CMiss Baker?\u201D he inquired.
+        \u201CI beg your pardon, but Mr. Gatsby would like to speak to you alone.\u201D
+        \u201CWith me?\u201D she exclaimed in surprise. \u201CYes, madame.\u201D
+        She got up slowly, raising her eyebrows at me in astonishment, and followed
+        the butler toward the house. I noticed that she wore her evening-dress, all
+        her dresses, like sports clothes\u2014there was a jauntiness about her movements
+        as if she had first learned to walk upon golf courses on clean, crisp mornings.
+        I was alone and it was almost two. For some time confused and intriguing
+        sounds had issued from a long, many-windowed room which overhung the terrace.
+        Eluding Jordan\u2019s undergraduate, who was now engaged in an obstetrical
+        conversation with two chorus girls, and who implored me to join him, I went
+        inside. The large room was full of people. One of the girls in yellow was
+        playing the piano, and beside her stood a tall, red-haired young lady from
+        a famous chorus, engaged in song. She had drunk a quantity of champagne,
+        and during the course of her song she had decided, ineptly, that everything
+        was very, very sad\u2014she was not only singing, she was weeping too. Whenever
+        there was a pause in the song she filled it with gasping, broken sobs, and
+        then took up the lyric again in a quavering soprano. The tears coursed down
+        her cheeks\u2014not freely, however, for when they came into contact with
+        her heavily beaded eyelashes they assumed an inky colour, and pursued the
+        rest of their way in slow black rivulets. A humorous suggestion was made
+        that she sing the notes on her face, whereupon she threw up her hands, sank
+        into a chair, and went off into a deep vinous sleep. \u201CShe had a fight
+        with a man who says he\u2019s her husband,\u201D explained a girl at my elbow.
+        I looked around. Most of the remaining women were now having fights with
+        men said to be their husbands. Even Jordan\u2019s party, the quartet from
+        East Egg, were rent asunder by dissension. One of the men was talking with
+        curious intensity to a young actress, and his wife, after attempting to laugh
+        at the situation in a dignified and indifferent way, broke down entirely
+        and resorted to flank attacks\u2014at intervals she appeared suddenly at
+        his side like an angry diamond, and hissed: \u201CYou promised!\u201D into
+        his ear. The reluctance to go home was not confined to wayward men. The hall
+        was at present occupied by two deplorably sober men and their highly indignant
+        wives. The wives were sympathizing with each other in slightly raised voices.
+        \u201CWhenever he sees I\u2019m having a good time he wants to go home.\u201D
+        \u201CNever heard anything so selfish in my life.\u201D \u201CWe\u2019re
+        always the first ones to leave.\u201D \u201CSo are we.\u201D \u201CWell,
+        we\u2019re almost the last tonight,\u201D said one of the men sheepishly.
+        \u201CThe orchestra left half an hour ago.\u201D In spite of the wives\u2019
+        agreement that such malevolence was beyond credibility, the dispute ended
+        in a short struggle, and both wives were lifted, kicking, into the night.
+        As I waited for my hat in the hall the door of the library opened and Jordan
+        Baker and Gatsby came out together. He was saying some last word to her,
+        but the eagerness in his manner tightened abruptly into formality as several
+        people approached him to say goodbye. Jordan\u2019s party were calling impatiently
+        to her from the porch, but she lingered for a moment to shake hands. \u201CI\u2019ve
+        just heard the most amazing thing,\u201D she whispered. \u201CHow long were
+        we in there?\u201D \u201CWhy, about an hour.\u201D \u201CIt was\u2026 simply
+        amazing,\u201D she repeated abstractedly. \u201CBut I swore I wouldn\u2019t
+        tell it and here I am tantalizing you.\u201D She yawned gracefully in my
+        face. \u201CPlease come and see me\u2026 Phone book\u2026 Under the name
+        of Mrs. Sigourney Howard\u2026 My aunt\u2026\u201D She was hurrying off as
+        she talked\u2014her brown hand waved a jaunty salute as she melted into her
+        party at the door. Rather ashamed that on my first appearance I had stayed
+        so late, I joined the last of Gatsby\u2019s guests, who were clustered around
+        him. I wanted to explain that I\u2019d hunted for him early in the evening
+        and to apologize for not having known him in the garden. \u201CDon\u2019t
+        mention it,\u201D he enjoined me eagerly. \u201CDon\u2019t give it another
+        thought, old sport.\u201D The familiar expression held no more familiarity
+        than the hand which reassuringly brushed my shoulder. \u201CAnd don\u2019t
+        forget we\u2019re going up in the hydroplane tomorrow morning, at nine o\u2019clock.\u201D
+        Then the butler, behind his shoulder: \u201CPhiladelphia wants you on the
+        phone, sir.\u201D \u201CAll right, in a minute. Tell them I\u2019ll be right
+        there\u2026 Good night.\u201D \u201CGood night.\u201D \u201CGood night.\u201D
+        He smiled\u2014and suddenly there seemed to be a pleasant significance in
+        having been among the last to go, as if he had desired it all the time. \u201CGood
+        night, old sport\u2026 Good night.\u201D But as I walked down the steps I
+        saw that the evening was not quite over. Fifty feet from the door a dozen
+        headlights illuminated a bizarre and tumultuous scene. In the ditch beside
+        the road, right side up, but violently shorn of one wheel, rested a new coup\xE9
+        which had left Gatsby\u2019s drive not two minutes before. The sharp jut
+        of a wall accounted for the detachment of the wheel, which was now getting
+        considerable attention from half a dozen curious chauffeurs. However, as
+        they had left their cars blocking the road, a harsh, discordant din from
+        those in the rear had been audible for some time, and added to the already
+        violent confusion of the scene. A man in a long duster had dismounted from
+        the wreck and now stood in the middle of the road, looking from the car to
+        the tyre and from the tyre to the observers in a pleasant, puzzled way. \u201CSee!\u201D
+        he explained. \u201CIt went in the ditch.\u201D The fact was infinitely astonishing
+        to him, and I recognized first the unusual quality of wonder, and then the
+        man\u2014it was the late patron of Gatsby\u2019s library. \u201CHow\u2019d
+        it happen?\u201D He shrugged his shoulders. \u201CI know nothing whatever
+        about mechanics,\u201D he said decisively. \u201CBut how did it happen? Did
+        you run into the wall?\u201D \u201CDon\u2019t ask me,\u201D said Owl Eyes,
+        washing his hands of the whole matter. \u201CI know very little about driving\u2014next
+        to nothing. It happened, and that\u2019s all I know.\u201D \u201CWell, if
+        you\u2019re a poor driver you oughtn\u2019t to try driving at night.\u201D
+        \u201CBut I wasn\u2019t even trying,\u201D he explained indignantly, \u201CI
+        wasn\u2019t even trying.\u201D An awed hush fell upon the bystanders. \u201CDo
+        you want to commit suicide?\u201D \u201CYou\u2019re lucky it was just a wheel!
+        A bad driver and not even trying!\u201D \u201CYou don\u2019t understand,\u201D
+        explained the criminal. \u201CI wasn\u2019t driving. There\u2019s another
+        man in the car.\u201D The shock that followed this declaration found voice
+        in a sustained \u201CAh-h-h!\u201D as the door of the coup\xE9 swung slowly
+        open. The crowd\u2014it was now a crowd\u2014stepped back involuntarily,
+        and when the door had opened wide there was a ghostly pause. Then, very gradually,
+        part by part, a pale, dangling individual stepped out of the wreck, pawing
+        tentatively at the ground with a large uncertain dancing shoe. Blinded by
+        the glare of the headlights and confused by the incessant groaning of the
+        horns, the apparition stood swaying for a moment before he perceived the
+        man in the duster. \u201CWha\u2019s matter?\u201D he inquired calmly. \u201CDid
+        we run outa gas?\u201D \u201CLook!\u201D Half a dozen fingers pointed at
+        the amputated wheel\u2014he stared at it for a moment, and then looked upward
+        as though he suspected that it had dropped from the sky. \u201CIt came off,\u201D
+        someone explained. He nodded. \u201CAt first I din\u2019 notice we\u2019d
+        stopped.\u201D A pause. Then, taking a long breath and straightening his
+        shoulders, he remarked in a determined voice: \u201CWonder\u2019ff tell me
+        where there\u2019s a gas\u2019line station?\u201D At least a dozen men, some
+        of them a little better off than he was, explained to him that wheel and
+        car were no longer joined by any physical bond. \u201CBack out,\u201D he
+        suggested after a moment. \u201CPut her in reverse.\u201D \u201CBut the wheel\u2019s
+        off!\u201D He hesitated. \u201CNo harm in trying,\u201D he said. The caterwauling
+        horns had reached a crescendo and I turned away and cut across the lawn toward
+        home. I glanced back once. A wafer of a moon was shining over Gatsby\u2019s
+        house, making the night fine as before, and surviving the laughter and the
+        sound of his still glowing garden. A sudden emptiness seemed to flow now
+        from the windows and the great doors, endowing with complete isolation the
+        figure of the host, who stood on the porch, his hand up in a formal gesture
+        of farewell. **********Reading over what I have written so far, I see I have
+        given the impression that the events of three nights several weeks apart
+        were all that absorbed me. On the contrary, they were merely casual events
+        in a crowded summer, and, until much later, they absorbed me infinitely less
+        than my personal affairs. Most of the time I worked. In the early morning
+        the sun threw my shadow westward as I hurried down the white chasms of lower
+        New York to the Probity Trust. I knew the other clerks and young bond-salesmen
+        by their first names, and lunched with them in dark, crowded restaurants
+        on little pig sausages and mashed potatoes and coffee. I even had a short
+        affair with a girl who lived in Jersey City and worked in the accounting
+        department, but her brother began throwing mean looks in my direction, so
+        when she went on her vacation in July I let it blow quietly away. I took
+        dinner usually at the Yale Club\u2014for some reason it was the gloomiest
+        event of my day\u2014and then I went upstairs to the library and studied
+        investments and securities for a conscientious hour. There were generally
+        a few rioters around, but they never came into the library, so it was a good
+        place to work. After that, if the night was mellow, I strolled down Madison
+        Avenue past the old Murray Hill Hotel, and over 33rd Street to the Pennsylvania
+        Station. I began to like New York, the racy, adventurous feel of it at night,
+        and the satisfaction that the constant flicker of men and women and machines
+        gives to the restless eye. I liked to walk up Fifth Avenue and pick out romantic
+        women from the crowd and imagine that in a few minutes I was going to enter
+        into their lives, and no one would ever know or disapprove. Sometimes, in
+        my mind, I followed them to their apartments on the corners of hidden streets,
+        and they turned and smiled back at me before they faded through a door into
+        warm darkness. At the enchanted metropolitan twilight I felt a haunting loneliness
+        sometimes, and felt it in others\u2014poor young clerks who loitered in front
+        of windows waiting until it was time for a solitary restaurant dinner\u2014young
+        clerks in the dusk, wasting the most poignant moments of night and life.
+        Again at eight o\u2019clock, when the dark lanes of the Forties were lined
+        five deep with throbbing taxicabs, bound for the theatre district, I felt
+        a sinking in my heart. Forms leaned together in the taxis as they waited,
+        and voices sang, and there was laughter from unheard jokes, and lighted cigarettes
+        made unintelligible circles inside. Imagining that I, too, was hurrying towards
+        gaiety and sharing their intimate excitement, I wished them well. For a while
+        I lost sight of Jordan Baker, and then in midsummer I found her again. At
+        first I was flattered to go places with her, because she was a golf champion,
+        and everyone knew her name. Then it was something more. I wasn\u2019t actually
+        in love, but I felt a sort of tender curiosity. The bored haughty face that
+        she turned to the world concealed something\u2014most affectations conceal
+        something eventually, even though they don\u2019t in the beginning\u2014and
+        one day I found what it was. When we were on a house-party together up in
+        Warwick, she left a borrowed car out in the rain with the top down, and then
+        lied about it\u2014and suddenly I remembered the story about her that had
+        eluded me that night at Daisy\u2019s. At her first big golf tournament there
+        was a row that nearly reached the newspapers\u2014a suggestion that she had
+        moved her ball from a bad lie in the semifinal round. The thing approached
+        the proportions of a scandal\u2014then died away. A caddy retracted his statement,
+        and the only other witness admitted that he might have been mistaken. The
+        incident and the name had remained together in my mind. Jordan Baker instinctively
+        avoided clever, shrewd men, and now I saw that this was because she felt
+        safer on a plane where any divergence from a code would be thought impossible.
+        She was incurably dishonest. She wasn\u2019t able to endure being at a disadvantage
+        and, given this unwillingness, I suppose she had begun dealing in subterfuges
+        when she was very young in order to keep that cool, insolent smile turned
+        to the world and yet satisfy the demands of her hard, jaunty body. It made
+        no difference to me. Dishonesty in a woman is a thing you never blame deeply\u2014I
+        was casually sorry, and then I forgot. It was on that same house-party that
+        we had a curious conversation about driving a car. It started because she
+        passed so close to some workmen that our fender flicked a button on one man\u2019s
+        coat. \u201CYou\u2019re a rotten driver,\u201D I protested. \u201CEither
+        you ought to be more careful, or you oughtn\u2019t to drive at all.\u201D
+        \u201CI am careful.\u201D \u201CNo, you\u2019re not.\u201D \u201CWell, other
+        people are,\u201D she said lightly. \u201CWhat\u2019s that got to do with
+        it?\u201D \u201CThey\u2019ll keep out of my way,\u201D she insisted. \u201CIt
+        takes two to make an accident.\u201D \u201CSuppose you met somebody just
+        as careless as yourself.\u201D \u201CI hope I never will,\u201D she answered.
+        \u201CI hate careless people. That\u2019s why I like you.\u201D Her grey,
+        sun-strained eyes stared straight ahead, but she had deliberately shifted
+        our relations, and for a moment I thought I loved her. But I am slow-thinking
+        and full of interior rules that act as brakes on my desires, and I knew that
+        first I had to get myself definitely out of that tangle back home. I\u2019d
+        been writing letters once a week and signing them: \u201CLove, Nick,\u201D
+        and all I could think of was how, when that certain girl played tennis, a
+        faint moustache of perspiration appeared on her upper lip. Nevertheless there
+        was a vague understanding that had to be tactfully broken off before I was
+        free. Everyone suspects himself of at least one of the cardinal virtues,
+        and this is mine: I am one of the few honest people that I have ever known."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: startPosition.x
+      value: 233880
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownFontSize
+      value: 
+      objectReference: {fileID: 6842987603074280008}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: currentPosition.x
+      value: 233880
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: totalTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 993937539}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: currentTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 906627047}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: widthOfTextboxInUnity
+      value: 465840
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReadingTextbox
+      value: 
+      objectReference: {fileID: 1074279340}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPlayButton
+      value: 
+      objectReference: {fileID: 1202841111124672362}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenReaderPlayerUI
+      value: 
+      objectReference: {fileID: 1758625967}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPauseButton
+      value: 
+      objectReference: {fileID: 749227563052658373}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownWordsPerMinuteRates
+      value: 
+      objectReference: {fileID: 6842987602774036645}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownAverageCharactersPerWord
+      value: 
+      objectReference: {fileID: 1217944567}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: numberOfCharactersIncludingSpaces
+      value: 32350
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: timeRequiredForTextboxToLeaveOffScreen
+      value: 5708.8237
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: distanceForTextboxToBeUpAgainstScreenRightEdge
+      value: 233880
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7415091ac6d37496e8632c55360e5172, type: 3}
+--- !u!1 &2957272005655145206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3246906744201496468, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3287821922221219435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2958023954298580973, guid: b0482697b64f14d0da0fb8f3369a5d77,
+    type: 3}
+  m_PrefabInstance: {fileID: 337122924084130182}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ebba4aaed1d4377bc55bc162fc5520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4253378664226371484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5086594063347104557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253378664226371484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01641e502ff5461292b0e6f4a2c3fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6328503907030144355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6041120977709922305, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6842987602774036645 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6553352891103772103, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6842987603074280008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6553352890266650410, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7354263485538077296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7354263484690076355, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_Name
+      value: Tutorial Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: skipButton
+      value: 
+      objectReference: {fileID: 2957272005655145206}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: finishButton
+      value: 
+      objectReference: {fileID: 1644966715}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 6328503907030144355}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: previousButton
+      value: 
+      objectReference: {fileID: 2006006439}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialScreenUI
+      value: 
+      objectReference: {fileID: 82276439}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialInstructionsTextbox
+      value: 
+      objectReference: {fileID: 7501891758732398719}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: adaptiveReadingManagerScript
+      value: 
+      objectReference: {fileID: 4253378664226371484}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: efe028b93f51c4eb589c0304fc0b8e44, type: 3}
+--- !u!114 &7501891758732398719 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7789276329498098973, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

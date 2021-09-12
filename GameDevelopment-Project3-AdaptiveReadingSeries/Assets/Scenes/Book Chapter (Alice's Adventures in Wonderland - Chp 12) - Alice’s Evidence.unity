@@ -1,0 +1,1204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &82276439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340275006773, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &104379308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340244057806, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &841439374 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339910108652, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &906627047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339978607237, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &993937539 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339757602273, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1074279340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341287358158, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1142872455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341353571557, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1217944567 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341143692949, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1230823838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8343344849195800674, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 766af0313affc467283da9b34ea0d9d3, type: 3}
+--- !u!114 &1300994228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+    type: 3}
+  m_PrefabInstance: {fileID: 7354263485538077296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021b0c60c8e9b4cdebcac91b2d63822e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1644966715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340717194841, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1683870388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340820963286, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1758625967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340611456461, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1849564596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849564599}
+  - component: {fileID: 1849564598}
+  - component: {fileID: 1849564597}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1849564597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1849564598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1849564599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2006006439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641341026719685, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &289641340214144354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 289641339956157444, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Name
+      value: Adaptive Book Reading Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641340717194847, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 289641341026719691, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 193665.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 97792.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 347549475896723619, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 941596333499496976, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 1036049174167290789, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 1036049175013743383, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 1491917284861088266, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 3003418131840803788, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 3246906744201496470, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 6041120977709922307, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 6557661318240013032, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6557661318240013034, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 7323256163634425567, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3287821922221219435}
+    - target: {fileID: 7323256163634425567, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToBookHubAliceAdventureInWonderland
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920592361882099463, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 9035645599115281861, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3313db844cb7e4ef39fba4b18f1dd31a, type: 3}
+--- !u!1001 &337122924084130182
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755749, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene Loader Game Object
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0482697b64f14d0da0fb8f3369a5d77, type: 3}
+--- !u!1 &749227563052658373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1036049174167290791, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1202841111124672362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1491917284861088264, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1639021353037088278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_Name
+      value: Adaptive Reading Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitle
+      value: "Alice\u2019s Adventures in Wonderland"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapter
+      value: "Chapter 12 - Alice\u2019s Evidence"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitleUI
+      value: 
+      objectReference: {fileID: 1142872455}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenUI
+      value: 
+      objectReference: {fileID: 104379308}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapterUI
+      value: 
+      objectReference: {fileID: 841439374}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: endPosition.x
+      value: -83709.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: pauseScreenUI
+      value: 
+      objectReference: {fileID: 1683870388}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: chapterFullText
+      value: "\u201CHere!\u201D cried Alice, quite forgetting in the flurry of the
+        moment how large she had grown in the last few minutes, and she jumped up
+        in such a hurry that she tipped over the jury-box with the edge of her skirt,
+        upsetting all the jurymen on to the heads of the crowd below, and there they
+        lay sprawling about, reminding her very much of a globe of goldfish she had
+        accidentally upset the week before. \u201COh, I beg your pardon!\u201D she
+        exclaimed in a tone of great dismay, and began picking them up again as quickly
+        as she could, for the accident of the goldfish kept running in her head,
+        and she had a vague sort of idea that they must be collected at once and
+        put back into the jury-box, or they would die. \u201CThe trial cannot proceed,\u201D
+        said the King in a very grave voice, \u201Cuntil all the jurymen are back
+        in their proper places\u2014all,\u201D he repeated with great emphasis, looking
+        hard at Alice as he said so. Alice looked at the jury-box, and saw that,
+        in her haste, she had put the Lizard in head downwards, and the poor little
+        thing was waving its tail about in a melancholy way, being quite unable to
+        move. She soon got it out again, and put it right; \u201Cnot that it signifies
+        much,\u201D she said to herself; \u201CI should think it would be quite as
+        much use in the trial one way up as the other.\u201D As soon as the jury
+        had a little recovered from the shock of being upset, and their slates and
+        pencils had been found and handed back to them, they set to work very diligently
+        to write out a history of the accident, all except the Lizard, who seemed
+        too much overcome to do anything but sit with its mouth open, gazing up into
+        the roof of the court. \u201CWhat do you know about this business?\u201D
+        the King said to Alice. \u201CNothing,\u201D said Alice. \u201CNothing whatever?\u201D
+        persisted the King. \u201CNothing whatever,\u201D said Alice. \u201CThat\u2019s
+        very important,\u201D the King said, turning to the jury. They were just
+        beginning to write this down on their slates, when the White Rabbit interrupted:
+        \u201CUnimportant, your Majesty means, of course,\u201D he said in a very
+        respectful tone, but frowning and making faces at him as he spoke. \u201CUnimportant,
+        of course, I meant,\u201D the King hastily said, and went on to himself in
+        an undertone, \u201Cimportant\u2014unimportant\u2014unimportant\u2014important\u2014\u201D
+        as if he were trying which word sounded best. Some of the jury wrote it down
+        \u201Cimportant,\u201D and some \u201Cunimportant.\u201D Alice could see
+        this, as she was near enough to look over their slates; \u201Cbut it doesn\u2019t
+        matter a bit,\u201D she thought to herself. At this moment the King, who
+        had been for some time busily writing in his note-book, cackled out \u201CSilence!\u201D
+        and read out from his book, \u201CRule Forty-two. All persons more than a
+        mile high to leave the court.\u201D Everybody looked at Alice. \u201CI\u2019m
+        not a mile high,\u201D said Alice. \u201CYou are,\u201D said the King. \u201CNearly
+        two miles high,\u201D added the Queen. \u201CWell, I shan\u2019t go, at any
+        rate,\u201D said Alice: \u201Cbesides, that\u2019s not a regular rule: you
+        invented it just now.\u201D \u201CIt\u2019s the oldest rule in the book,\u201D
+        said the King. \u201CThen it ought to be Number One,\u201D said Alice. The
+        King turned pale, and shut his note-book hastily. \u201CConsider your verdict,\u201D
+        he said to the jury, in a low, trembling voice. \u201CThere\u2019s more evidence
+        to come yet, please your Majesty,\u201D said the White Rabbit, jumping up
+        in a great hurry; \u201Cthis paper has just been picked up.\u201D \u201CWhat\u2019s
+        in it?\u201D said the Queen. \u201CI haven\u2019t opened it yet,\u201D said
+        the White Rabbit, \u201Cbut it seems to be a letter, written by the prisoner
+        to\u2014to somebody.\u201D \u201CIt must have been that,\u201D said the King,
+        \u201Cunless it was written to nobody, which isn\u2019t usual, you know.\u201D
+        \u201CWho is it directed to?\u201D said one of the jurymen. \u201CIt isn\u2019t
+        directed at all,\u201D said the White Rabbit; \u201Cin fact, there\u2019s
+        nothing written on the outside.\u201D He unfolded the paper as he spoke,
+        and added \u201CIt isn\u2019t a letter, after all: it\u2019s a set of verses.\u201D
+        \u201CAre they in the prisoner\u2019s handwriting?\u201D asked another of
+        the jurymen. \u201CNo, they\u2019re not,\u201D said the White Rabbit, \u201Cand
+        that\u2019s the queerest thing about it.\u201D (The jury all looked puzzled.)\u201CHe
+        must have imitated somebody else\u2019s hand,\u201D said the King. (The jury
+        all brightened up again.)\u201CPlease your Majesty,\u201D said the Knave,
+        \u201CI didn\u2019t write it, and they can\u2019t prove I did: there\u2019s
+        no name signed at the end.\u201D \u201CIf you didn\u2019t sign it,\u201D
+        said the King, \u201Cthat only makes the matter worse. You must have meant
+        some mischief, or else you\u2019d have signed your name like an honest man.\u201D
+        There was a general clapping of hands at this: it was the first really clever
+        thing the King had said that day. \u201CThat proves his guilt,\u201D said
+        the Queen. \u201CIt proves nothing of the sort!\u201D said Alice. \u201CWhy,
+        you don\u2019t even know what they\u2019re about!\u201D \u201CRead them,\u201D
+        said the King. The White Rabbit put on his spectacles. \u201CWhere shall
+        I begin, please your Majesty?\u201D he asked. \u201CBegin at the beginning,\u201D
+        the King said gravely, \u201Cand go on till you come to the end: then stop.\u201D
+        These were the verses the White Rabbit read:\u2014\u201CThey told me you
+        had been to her, And mentioned me to him: She gave me a good character, But
+        said I could not swim. He sent them word I had not gone (We know it to be
+        true): If she should push the matter on, What would become of you? I gave
+        her one, they gave him two, You gave us three or more; They all returned
+        from him to you, Though they were mine before. If I or she should chance
+        to be Involved in this affair, He trusts to you to set them free, Exactly
+        as we were. My notion was that you had been (Before she had this fit) An
+        obstacle that came between Him, and ourselves, and it. Don\u2019t let him
+        know she liked them best, For this must ever be A secret, kept from all the
+        rest, Between yourself and me.\u201D \u201CThat\u2019s the most important
+        piece of evidence we\u2019ve heard yet,\u201D said the King, rubbing his
+        hands; \u201Cso now let the jury\u2014\u201D\u201CIf any one of them can
+        explain it,\u201D said Alice, (she had grown so large in the last few minutes
+        that she wasn\u2019t a bit afraid of interrupting him,) \u201CI\u2019ll give
+        him sixpence. I don\u2019t believe there\u2019s an atom of meaning in it.\u201D
+        The jury all wrote down on their slates, \u201CShe doesn\u2019t believe there\u2019s
+        an atom of meaning in it,\u201D but none of them attempted to explain the
+        paper. \u201CIf there\u2019s no meaning in it,\u201D said the King, \u201Cthat
+        saves a world of trouble, you know, as we needn\u2019t try to find any. And
+        yet I don\u2019t know,\u201D he went on, spreading out the verses on his
+        knee, and looking at them with one eye; \u201CI seem to see some meaning
+        in them, after all. \u201C\u2014said I could not swim\u2014\u201D you can\u2019t
+        swim, can you?\u201D he added, turning to the Knave. The Knave shook his
+        head sadly. \u201CDo I look like it?\u201D he said. (Which he certainly did
+        not, being made entirely of cardboard.)\u201CAll right, so far,\u201D said
+        the King, and he went on muttering over the verses to himself: \u201C\u2018We
+        know it to be true\u2014\u2019 that\u2019s the jury, of course\u2014\u2018I
+        gave her one, they gave him two\u2014\u2019 why, that must be what he did
+        with the tarts, you know\u2014\u201D\u201CBut, it goes on \u2018they all
+        returned from him to you,\u2019\u201D said Alice. \u201CWhy, there they are!\u201D
+        said the King triumphantly, pointing to the tarts on the table. \u201CNothing
+        can be clearer than that. Then again\u2014\u2018before she had this fit\u2014\u2019
+        you never had fits, my dear, I think?\u201D he said to the Queen. \u201CNever!\u201D
+        said the Queen furiously, throwing an inkstand at the Lizard as she spoke.
+        (The unfortunate little Bill had left off writing on his slate with one finger,
+        as he found it made no mark; but he now hastily began again, using the ink,
+        that was trickling down his face, as long as it lasted.)\u201CThen the words
+        don\u2019t fit you,\u201D said the King, looking round the court with a smile.
+        There was a dead silence. \u201CIt\u2019s a pun!\u201D the King added in
+        an offended tone, and everybody laughed, \u201CLet the jury consider their
+        verdict,\u201D the King said, for about the twentieth time that day. \u201CNo,
+        no!\u201D said the Queen. \u201CSentence first\u2014verdict afterwards.\u201D
+        \u201CStuff and nonsense!\u201D said Alice loudly. \u201CThe idea of having
+        the sentence first!\u201D \u201CHold your tongue!\u201D said the Queen, turning
+        purple. \u201CI won\u2019t!\u201D said Alice. \u201COff with her head!\u201D
+        the Queen shouted at the top of her voice. Nobody moved. \u201CWho cares
+        for you?\u201D said Alice, (she had grown to her full size by this time.)
+        \u201CYou\u2019re nothing but a pack of cards!\u201D At this the whole pack
+        rose up into the air, and came flying down upon her: she gave a little scream,
+        half of fright and half of anger, and tried to beat them off, and found herself
+        lying on the bank, with her head in the lap of her sister, who was gently
+        brushing away some dead leaves that had fluttered down from the trees upon
+        her face. \u201CWake up, Alice dear!\u201D said her sister; \u201CWhy, what
+        a long sleep you\u2019ve had!\u201D \u201COh, I\u2019ve had such a curious
+        dream!\u201D said Alice, and she told her sister, as well as she could remember
+        them, all these strange Adventures of hers that you have just been reading
+        about; and when she had finished, her sister kissed her, and said, \u201CIt
+        was a curious dream, dear, certainly: but now run in to your tea; it\u2019s
+        getting late.\u201D So Alice got up and ran off, thinking while she ran,
+        as well she might, what a wonderful dream it had been. ********* But her
+        sister sat still just as she left her, leaning her head on her hand, watching
+        the setting sun, and thinking of little Alice and all her wonderful Adventures,
+        till she too began dreaming after a fashion, and this was her dream:\u2014First,
+        she dreamed of little Alice herself, and once again the tiny hands were clasped
+        upon her knee, and the bright eager eyes were looking up into hers\u2014she
+        could hear the very tones of her voice, and see that queer little toss of
+        her head to keep back the wandering hair that would always get into her eyes\u2014and
+        still as she listened, or seemed to listen, the whole place around her became
+        alive with the strange creatures of her little sister\u2019s dream. The long
+        grass rustled at her feet as the White Rabbit hurried by\u2014the frightened
+        Mouse splashed his way through the neighbouring pool\u2014she could hear
+        the rattle of the teacups as the March Hare and his friends shared their
+        never-ending meal, and the shrill voice of the Queen ordering off her unfortunate
+        guests to execution\u2014once more the pig-baby was sneezing on the Duchess\u2019s
+        knee, while plates and dishes crashed around it\u2014once more the shriek
+        of the Gryphon, the squeaking of the Lizard\u2019s slate-pencil, and the
+        choking of the suppressed guinea-pigs, filled the air, mixed up with the
+        distant sobs of the miserable Mock Turtle. So she sat on, with closed eyes,
+        and half believed herself in Wonderland, though she knew she had but to open
+        them again, and all would change to dull reality\u2014the grass would be
+        only rustling in the wind, and the pool rippling to the waving of the reeds\u2014the
+        rattling teacups would change to tinkling sheep-bells, and the Queen\u2019s
+        shrill cries to the voice of the shepherd boy\u2014and the sneeze of the
+        baby, the shriek of the Gryphon, and all the other queer noises, would change
+        (she knew) to the confused clamour of the busy farm-yard\u2014while the lowing
+        of the cattle in the distance would take the place of the Mock Turtle\u2019s
+        heavy sobs. Lastly, she pictured to herself how this same little sister of
+        hers would, in the after-time, be herself a grown woman; and how she would
+        keep, through all her riper years, the simple and loving heart of her childhood:
+        and how she would gather about her other little children, and make their
+        eyes bright and eager with many a strange tale, perhaps even with the dream
+        of Wonderland of long ago: and how she would feel with all their simple sorrows,
+        and find a pleasure in all their simple joys, remembering her own child-life,
+        and the happy summer days."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: startPosition.x
+      value: 83709.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownFontSize
+      value: 
+      objectReference: {fileID: 6842987603074280008}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: currentPosition.x
+      value: 83709.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: totalTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 993937539}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: currentTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 906627047}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: widthOfTextboxInUnity
+      value: 165498.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReadingTextbox
+      value: 
+      objectReference: {fileID: 1074279340}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPlayButton
+      value: 
+      objectReference: {fileID: 1202841111124672362}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenReaderPlayerUI
+      value: 
+      objectReference: {fileID: 1758625967}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPauseButton
+      value: 
+      objectReference: {fileID: 749227563052658373}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownWordsPerMinuteRates
+      value: 
+      objectReference: {fileID: 6842987602774036645}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownAverageCharactersPerWord
+      value: 
+      objectReference: {fileID: 1217944567}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: numberOfCharactersIncludingSpaces
+      value: 11447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: timeRequiredForTextboxToLeaveOffScreen
+      value: 2020.0588
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: distanceForTextboxToBeUpAgainstScreenRightEdge
+      value: 83709.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7415091ac6d37496e8632c55360e5172, type: 3}
+--- !u!1 &2957272005655145206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3246906744201496468, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3287821922221219435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2958023954298580973, guid: b0482697b64f14d0da0fb8f3369a5d77,
+    type: 3}
+  m_PrefabInstance: {fileID: 337122924084130182}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ebba4aaed1d4377bc55bc162fc5520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4253378664226371484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5086594063347104557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253378664226371484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01641e502ff5461292b0e6f4a2c3fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6328503907030144355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6041120977709922305, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6842987602774036645 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6553352891103772103, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6842987603074280008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6553352890266650410, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7354263485538077296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7354263484690076355, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_Name
+      value: Tutorial Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: skipButton
+      value: 
+      objectReference: {fileID: 2957272005655145206}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: finishButton
+      value: 
+      objectReference: {fileID: 1644966715}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 6328503907030144355}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: previousButton
+      value: 
+      objectReference: {fileID: 2006006439}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialScreenUI
+      value: 
+      objectReference: {fileID: 82276439}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialInstructionsTextbox
+      value: 
+      objectReference: {fileID: 7501891758732398719}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: adaptiveReadingManagerScript
+      value: 
+      objectReference: {fileID: 4253378664226371484}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: efe028b93f51c4eb589c0304fc0b8e44, type: 3}
+--- !u!114 &7501891758732398719 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7789276329498098973, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

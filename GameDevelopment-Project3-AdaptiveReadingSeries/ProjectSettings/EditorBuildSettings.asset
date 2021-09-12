@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/1. Main Menu.unity
+    guid: 88e5e89a5296b4b7394de3b51f0b33d1
+  - enabled: 1
+    path: Assets/Scenes/2. Credits.unity
+    guid: 2beaa1dd6e1f54ead9de0aa165fb2143
+  - enabled: 1
+    path: Assets/Scenes/Book Hub - The Great Gatsby.unity
+    guid: 77cc4c815f89547049d7201deaba1c6d
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 1) - I.unity
+    guid: f6609032beb334ff2b7655dda9c65ea5
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 2) - II.unity
+    guid: 1f0fd3e2c899f4b829fe5163236c67cd
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 3) - III.unity
+    guid: a0eb4105ccf2446989f35845880138b1
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 4) - IV.unity
+    guid: 9f3aef2f42ee74b3382f3f166a3bf67a
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 5) - V.unity
+    guid: 529e62b090be4450685cdb611565c0ed
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 6) - VI.unity
+    guid: 8f87410f026d24e85b6ca17886461009
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 7) - VII.unity
+    guid: af002a7f439cc46e0a452641c28d329f
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 8) - VIII.unity
+    guid: 8ad569be997894d8fb8ad18757a42532
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Great Gatsby - Chp 9) - IX.unity
+    guid: 5db333320bc014c4da2843e7cd40bc37
+  - enabled: 1
+    path: Assets/Scenes/Book Hub - Alice's Adventures in Wonderland.unity
+    guid: 04c27afe6e1364dab95e5066e8e9318f
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 1) -
+      Down the Rabbit-Hole.unity
+    guid: d9d81a20ace314e2ea9dd23ddbedbebd
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 2) -
+      The Pool of Tears.unity
+    guid: 698970ecbb870418094d79554578aab0
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 3) -
+      A Caucus-Race and a Long Tale.unity
+    guid: 192810f9628f74f4699a5814bde66641
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 4) -
+      The Rabbit Sends in a Little Bill.unity
+    guid: f53f24a23714147cdb0cafca6458096b
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 5) -
+      Advice from a Caterpillar.unity
+    guid: cc0ee9c87a589458bb3d28a4eec8899b
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 6) -
+      Pig and Pepper.unity
+    guid: be83351ad173a4299899ad3b40472279
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 7) -
+      A Mad Tea-Party.unity
+    guid: c0d0620b95fa84848adf1e79683b2923
+  - enabled: 1
+    path: "Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 8)
+      - The Queen\u2019s Croquet-Ground.unity"
+    guid: c299cf824bf5c41ed8e0e778c8b251e1
+  - enabled: 1
+    path: "Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 9)
+      - The Mock Turtle\u2019s Story.unity"
+    guid: cf1d0da4247f14c1da52d1f2557566ee
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 10)
+      - The Lobster Quadrille.unity
+    guid: 2fe0764191e2f46578bd61b19dcedb97
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 11)
+      - Who Stole the Tarts.unity
+    guid: da189aa025e4b48928c9d8b974cc70bc
+  - enabled: 1
+    path: "Assets/Scenes/Book Chapter (Alice's Adventures in Wonderland - Chp 12)
+      - Alice\u2019s Evidence.unity"
+    guid: d18e06bee537d493abf562e607ea3f46
+  - enabled: 1
+    path: Assets/Scenes/Book Hub - A Scandal in Bohemia.unity
+    guid: 28528bdd3667f49c4ab2482437fa250f
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (A Scandal in Bohemia - Chp 1) - I.unity
+    guid: d011c0c583e104a74a34a29e9029a786
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (A Scandal in Bohemia - Chp 2) - II.unity
+    guid: 3189678a7ad5d49f0878170b29a79ebd
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (A Scandal in Bohemia - Chp 3) - III.unity
+    guid: edd78d995a97d4284bc1225aac9104ed
+  - enabled: 1
+    path: Assets/Scenes/Book Hub - The Coming of the Martians.unity
+    guid: 9b5c6e161acf148609d8ad46885777b0
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 1) - The Eve
+      of War.unity
+    guid: 2edbfcda055e94d6280ab181f320d1f2
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 2) - The Falling
+      Star.unity
+    guid: 7a94a8bc5af7040d08337030a64c2ee5
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 3) - One Horsell
+      Common.unity
+    guid: e69bf7d8764ff4bd9892390e2c48d9fe
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 4) - The Cylinder
+      Opens.unity
+    guid: 77b3da68e57eb4df791a54e86d83ed80
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 5) - The Heat-Ray.unity
+    guid: 428420fbf36524c9780fff57a7d7c590
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 6) - The Heart-Ray
+      in the Chobham Road.unity
+    guid: f4fc93145d9a8444da843f0a8d76b417
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 7) - How I
+      Reached Home.unity
+    guid: e9464d1fc9c764e50b8969e99d2f3595
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 8) - Friday
+      Night.unity
+    guid: 6c904aca7e7eb411abed43cd48208f96
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 9) - The Fighting
+      Begins.unity
+    guid: a2eb4e37b5c6449b4af7e7adc17e79f7
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 10) - In the
+      Storm.unity
+    guid: 1c27e72a4173242f0a88f9b27d35e16c
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 11) - At the
+      Window.unity
+    guid: f2220280c0063404aa74f8467ecc54df
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 12) - What
+      I saw of the destruction of Weybridge and Shepperton.unity
+    guid: a16b80c8c263b4236bc4d509e5bb4052
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 13) - How
+      I fell with the Curate.unity
+    guid: 54262b663cdb54fe880e8ef2341b20d8
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 14) - In London.unity
+    guid: b6801176793354a71bed15300d61108e
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 15) - What
+      had happened in Surrey.unity
+    guid: 0f2b496dd6396439eb926fa5de8c9ddc
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 16) - The
+      Exodus from London.unity
+    guid: 9670245faea354c008590542c79b0e55
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Coming of the Martians - Chp 17) - The
+      'Thunder Child'.unity
+    guid: 1ae63397d07b8450d9184d89ef1de214
+  - enabled: 1
+    path: Assets/Scenes/Book Hub - The Earth under the Martians.unity
+    guid: 45ec83cd3d4ed47c883391469b9a2936
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 1) - Under
+      Foot.unity
+    guid: e08265ef83d4e4530bfcd7eb37fa211e
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 2) - What
+      we saw from the Ruined House.unity
+    guid: 5ab8437726f374dbc87a8acc00dbe04f
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 3) - The
+      Days of Imprisonment.unity
+    guid: 8be4275ff8bd545ba848e20dc7c09366
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 4) - The
+      Death of Curate.unity
+    guid: 5ea92be6c3fbb4046bb77e6cdb602370
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 5) - The
+      Stillness.unity
+    guid: 35645227e20dd4cf39823dd0cac63cfb
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 6) - The
+      Work of Fifteen Days.unity
+    guid: c1b6356e341f74b82a6b8612fe019d9e
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 7) - The
+      Man on Putney Hill.unity
+    guid: 366f97062699445c7bf25760b45c2de1
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 8) - Dead
+      London.unity
+    guid: 879defce3d98b4c89bcc16e2dbb59bea
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 9) - Wreckage.unity
+    guid: c860592567fe04e7eb88f2f14ab37e33
+  - enabled: 1
+    path: Assets/Scenes/Book Chapter (The Earth under the Martians - Chp 10) - The
+      Epilogue.unity
+    guid: 5b2ebcda126e544a3b8cd24cdb9ac477
+  m_configObjects: {}
