@@ -11,6 +11,10 @@ public class LibraryButtonListControl : MonoBehaviour
 {
     //Cached Reference:
     SceneLoader sceneLoader;
+    
+
+    //Objects:
+    private GameObject orderVariable;
 
 
     //Config Param:
@@ -27,8 +31,6 @@ public class LibraryButtonListControl : MonoBehaviour
         public string bookGenre;
     }
 
-    //[Header("Library Array")]
-    //[SerializeField] LibraryBooks[] allLibraryBooks;
     [Header("Library List")]
     [SerializeField] List<LibraryBooks> allLibraryBooks;
 
@@ -90,8 +92,12 @@ public class LibraryButtonListControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        allLibraryBooks = allLibraryBooks.
-            Where(orderVariable => inputFieldStorageVariable.Contains(orderVariable.bookSeries)).ToList();
+        if (orderVariable != null) 
+        {
+            allLibraryBooks = allLibraryBooks.
+                Where(orderVariable => inputFieldStorageVariable.Contains(orderVariable.bookSeries)).ToList();
+        }
+
     }
 
     public void ReadInputField(string typedInputFieldString)
