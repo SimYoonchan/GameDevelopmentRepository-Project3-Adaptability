@@ -7,12 +7,9 @@ public class MainMenuManager : MonoBehaviour
 {
     //Config Param:
     [Header("Boolean ON/OFF")]
-    [SerializeField] GameObject mainMenuFirstScreenUI;
-    [SerializeField] GameObject mainMenuStartScreenUI;
-    [SerializeField] GameObject mainMenuTutorialScreenUI;
+    [SerializeField] GameObject mainMenuHomeScreenUI;
     [SerializeField] GameObject mainMenuResearchScreenUI;
-    [SerializeField] GameObject mainMenuAboutTheCreatorsScreenUI;
-    [SerializeField] GameObject mainMenuSettingsScreenUI;
+    [SerializeField] GameObject mainMenuTheCreatorsScreenUI;
     //No credits UI.
 
 
@@ -24,12 +21,9 @@ public class MainMenuManager : MonoBehaviour
         //To eliminate any potential pausing errors:
         Time.timeScale = 1f;
 
-        mainMenuFirstScreenUI.SetActive(true);
-        mainMenuStartScreenUI.SetActive(false);
-        mainMenuTutorialScreenUI.SetActive(false);
+        mainMenuHomeScreenUI.SetActive(true);
         mainMenuResearchScreenUI.SetActive(false);
-        mainMenuAboutTheCreatorsScreenUI.SetActive(false);
-        mainMenuSettingsScreenUI.SetActive(false);
+        mainMenuTheCreatorsScreenUI.SetActive(false);
     }
 
     // Update is called once per frame
@@ -38,73 +32,40 @@ public class MainMenuManager : MonoBehaviour
 
     }
 
-    public void GoToFirstScreen()
+    public void NavHomeToResearch()
     {
-        mainMenuFirstScreenUI.SetActive(true);
-        mainMenuStartScreenUI.SetActive(false);
-        mainMenuResearchScreenUI.SetActive(false);
-        mainMenuAboutTheCreatorsScreenUI.SetActive(false);
-        mainMenuSettingsScreenUI.SetActive(false);
-    }
-
-    public void GoToStartScreen()
-    {
-        mainMenuFirstScreenUI.SetActive(false);
-        mainMenuStartScreenUI.SetActive(true);
-    }
-
-    public void BackFromStartScreen()
-    {
-        mainMenuStartScreenUI.SetActive(false);
-        mainMenuFirstScreenUI.SetActive(true);
-    }
-
-    public void GoToTutorialScreen()
-    {
-        mainMenuFirstScreenUI.SetActive(false);
-        mainMenuTutorialScreenUI.SetActive(true);
-    }
-
-    public void BackFromTutorialScreen()
-    {
-        mainMenuTutorialScreenUI.SetActive(false);
-        mainMenuFirstScreenUI.SetActive(true);
-    }
-
-    public void GoToResearchScreen()
-    {
-        mainMenuFirstScreenUI.SetActive(false);
+        mainMenuHomeScreenUI.SetActive(false);
         mainMenuResearchScreenUI.SetActive(true);
     }
 
-    public void BackFromResearchScreen()
+    public void NavHomeToTheCreators()
+    {
+        mainMenuHomeScreenUI.SetActive(false);
+        mainMenuTheCreatorsScreenUI.SetActive(true);
+    }
+
+    public void NavResearchToHome()
     {
         mainMenuResearchScreenUI.SetActive(false);
-        mainMenuFirstScreenUI.SetActive(true);
+        mainMenuHomeScreenUI.SetActive(true);
     }
 
-    public void GoToAboutTheCreatorsScreen()
+    public void NavResearchToTheCreators()
     {
-        mainMenuFirstScreenUI.SetActive(false);
-        mainMenuAboutTheCreatorsScreenUI.SetActive(true);
+        mainMenuResearchScreenUI.SetActive(false);
+        mainMenuTheCreatorsScreenUI.SetActive(true);
     }
 
-    public void BackFromAboutTheCreatorsScreen()
+    public void NavTheCreatorsToHome()
     {
-        mainMenuAboutTheCreatorsScreenUI.SetActive(false);
-        mainMenuFirstScreenUI.SetActive(true);
+        mainMenuTheCreatorsScreenUI.SetActive(false);
+        mainMenuHomeScreenUI.SetActive(true);
     }
 
-    public void GoToSettingsScreen()
+    public void NavTheCreatorsToResearch()
     {
-        mainMenuFirstScreenUI.SetActive(false);
-        mainMenuSettingsScreenUI.SetActive(true);
-    }
-
-    public void BackFromSettingsScreen()
-    {
-        mainMenuSettingsScreenUI.SetActive(false);
-        mainMenuFirstScreenUI.SetActive(true);
+        mainMenuTheCreatorsScreenUI.SetActive(false);
+        mainMenuResearchScreenUI.SetActive(true);
     }
 }
 

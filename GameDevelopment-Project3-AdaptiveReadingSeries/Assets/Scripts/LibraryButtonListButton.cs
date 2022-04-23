@@ -21,7 +21,7 @@ public class LibraryButtonListButton : MonoBehaviour
     }
 
     //Cached Reference:
-    SceneLoader sceneLoader;
+    ContentPreviewOverlayControl contentPreviewOverlayControl;
 
 
     //Config Param:
@@ -29,21 +29,15 @@ public class LibraryButtonListButton : MonoBehaviour
     [SerializeField]
     private Image bookCoverOnButton;
     [SerializeField]
-    private TextMeshProUGUI bookSeriesOnButton;
-    [SerializeField]
     private TextMeshProUGUI bookTitleOnButton;
     [SerializeField]
     private TextMeshProUGUI bookAuthorOnButton;
-    //[SerializeField]
-    //private BookGenre primaryBookGenreOnButton;
-    [SerializeField]
-    private TextMeshProUGUI bookGenreOnButton;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        sceneLoader = FindObjectOfType<SceneLoader>();
+        contentPreviewOverlayControl = FindObjectOfType<ContentPreviewOverlayControl>();
     }
 
     // Update is called once per frame
@@ -57,11 +51,6 @@ public class LibraryButtonListButton : MonoBehaviour
         bookCoverOnButton.sprite = sprite;
     }
 
-    public void SetBookSeries(string textString)
-    {
-        bookSeriesOnButton.text = textString;
-    }
-
     public void SetBookTitle(string textString)
     {
         bookTitleOnButton.text = textString;
@@ -72,41 +61,48 @@ public class LibraryButtonListButton : MonoBehaviour
         bookAuthorOnButton.text = textString;
     }
 
-    //public void SetPrimaryBookGenre(BookGenre bookGenre)
-    //{
-    //    primaryBookGenreOnButton = bookGenre;
-    //}
-
-    public void SetBookGenres(string bookGenre)
-    {
-        bookGenreOnButton.text = bookGenre;
-    }
-
     public void OnButtonClick()
     {
         if (bookTitleOnButton.text == "Alice's Adventures in Wonderland")
         {
-            sceneLoader.GoToBookHubAliceAdventureInWonderland();
+            contentPreviewOverlayControl.OpenAlice_s_Adventures_In_Wonderland_By_Lewis_Carroll();
+
+            //if (bookAuthorOnButton.text == "Lewis Carroll")
+            //{
+            //    contentPreviewOverlayControl.OpenAlice_s_Adventures_In_Wonderland_By_Lewis_Carroll();
+            //}
         }
 
         if (bookTitleOnButton.text == "The Great Gatsby")
         {
-            sceneLoader.GoToBookHubTheGreatGatsby();
+            if (bookAuthorOnButton.text == "F. Scott Fitzgerald")
+            {
+                contentPreviewOverlayControl.OpenThe_Great_Gatsby_By_F_Scott_Fitzgerald();
+            }
         }
 
         if (bookTitleOnButton.text == "A Scandal in Bohemia")
         {
-            sceneLoader.GoToBookHubAScandalInBohemia();
+            if (bookAuthorOnButton.text == "Arthur Conan Doyle")
+            {
+                contentPreviewOverlayControl.OpenA_Scandal_In_Bohemia_By_Arthur_Conan_Doyle();
+            }
         }
 
         if (bookTitleOnButton.text == "Book 1 - The Coming of the Martians")
         {
-            sceneLoader.GoToBookHubTheComingOfTheMartians();
+            if (bookAuthorOnButton.text == "H. G. Wells")
+            {
+                contentPreviewOverlayControl.OpenBook_1_The_Coming_Of_The_Martians_By_H_G_Wells();
+            }
         }
 
-        if (bookTitleOnButton.text == "Book 2 - The Earth Under the Martians")
+        if (bookTitleOnButton.text == "Book 2 - The Earth under the Martians")
         {
-            sceneLoader.GoToBookHubTheEarthUnderTheMartians();
+            if (bookAuthorOnButton.text == "H. G. Wells")
+            {
+                contentPreviewOverlayControl.OpenBook_2_The_Earth_Under_The_Martians_By_H_G_Wells();
+            }
         }
     }
 }

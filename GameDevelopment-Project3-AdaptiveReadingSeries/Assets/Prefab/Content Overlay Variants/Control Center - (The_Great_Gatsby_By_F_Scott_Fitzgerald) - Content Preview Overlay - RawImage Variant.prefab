@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7229899559124887320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2557541849465437382, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7812365245768094092, guid: 39831ba6be0e243939a4cde55232713e,
+        type: 3}
+    - target: {fileID: 2557541849465437382, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseThe_Great_Gatsby_By_F_Scott_Fitzgerald
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: totalNumberOfChapters
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[0].chapterName
+      value: I
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[1].chapterName
+      value: II
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[2].chapterName
+      value: III
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[3].chapterName
+      value: IV
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[4].chapterName
+      value: V
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[5].chapterName
+      value: VI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[6].chapterName
+      value: VII
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[7].chapterName
+      value: VIII
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388590419458621856, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: allChapters.Array.data[8].chapterName
+      value: IX
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050170, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_Name
+      value: Control Center - (The_Great_Gatsby_By_F_Scott_Fitzgerald) - Content
+        Preview Overlay - RawImage Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: authorName
+      value: F. Scott Fitzgerald
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: releaseDate
+      value: 1925
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: contentGenre
+      value: 1925
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: authorProfile
+      value: 
+      objectReference: {fileID: 21300000, guid: 3d5a405a78ecf4755a98c8615d72db5f,
+        type: 3}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: contentSeries
+      value: N/A
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: contentSynopsis
+      value: 'F. Scott Fitzgerald''s novel,The Great Gatsby, follows Jay Gatsby,
+        a man who orders his life around one desire: to be reunited with Daisy Buchanan,
+        the love he lost five years earlier. Gatsby''s quest leads him from poverty
+        to wealth, into the arms of his beloved, and eventually to death.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: contentTitleFont
+      value: 
+      objectReference: {fileID: 12800000, guid: a23b5ff4810314e39982f4cf6390d036,
+        type: 3}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: contentTitleText
+      value: The Great Gatsby
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050172, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: contentConceptImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 397704bf4b22b447789bdeb014434650,
+        type: 3}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000091552734
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000091552734
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451017767900050173, guid: be333def322424899bbeba0e0435c3b4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be333def322424899bbeba0e0435c3b4, type: 3}

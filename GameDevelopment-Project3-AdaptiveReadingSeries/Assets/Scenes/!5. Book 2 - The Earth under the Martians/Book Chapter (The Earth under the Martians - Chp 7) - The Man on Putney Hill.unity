@@ -1,0 +1,1588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 79d4526bb495c451ab6e32a88729b851,
+    type: 2}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &104379308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340244057806, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &125708896 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641340068267193, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &442807363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8207121993884591396, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &548651009
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 289641340214144360}
+    m_Modifications:
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000091552734
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000091552734
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191178, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191181, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_Name
+      value: Control Center - (Book_2_The_Earth_Under_The_Martians_By_H_G_Wells)
+        - Content Preview Overlay - RawImage Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453938523503191181, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374441941022714545, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 4374441941022714545, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NavMoreChaptersToReaderPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374441941022714545, guid: d0afe9e5597f54788971875bb6609677,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AdaptiveReadingManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0afe9e5597f54788971875bb6609677, type: 3}
+--- !u!114 &712616971 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339509981545, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &776930059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7725631125310727266, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &841439374 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339910108652, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &906627047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339978607237, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &993937539 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641339757602273, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1074279340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341287358158, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1142872455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641341353571557, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1230823838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8343344849195800674, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343344849195800734, guid: 766af0313affc467283da9b34ea0d9d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 766af0313affc467283da9b34ea0d9d3, type: 3}
+--- !u!114 &1300994228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+    type: 3}
+  m_PrefabInstance: {fileID: 7354263485538077296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021b0c60c8e9b4cdebcac91b2d63822e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1758625967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289641340611456461, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1849564596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849564599}
+  - component: {fileID: 1849564598}
+  - component: {fileID: 1849564597}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1849564597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1849564598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1849564599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849564596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977022149 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 289641340103496872, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2092994285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1929704711366876884, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &289641340214144354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 289641339956157444, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Name
+      value: Adaptive Book Reading Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641339956157448, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 115552.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 289641341287358153, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 58736.434
+      objectReference: {fileID: 0}
+    - target: {fileID: 672122598813413172, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 1813718256141768031, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3287821922221219435}
+    - target: {fileID: 2510432673282346991, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 2804881753964119497, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 4362223821888822183, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 6012275809840051938, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3287821922221219435}
+    - target: {fileID: 6286239642724101099, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3287821922221219435}
+    - target: {fileID: 6770759009789465960, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 7310130908803854049, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 7725631125310727264, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 7839812906809104160, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    - target: {fileID: 8207121993884591398, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5086594063347104557}
+    - target: {fileID: 8719080529391518222, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1300994228}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3313db844cb7e4ef39fba4b18f1dd31a, type: 3}
+--- !u!114 &289641340214144355 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6805857023685164210, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &289641340214144356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7839812906809104162, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &289641340214144357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8719080529391518220, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &289641340214144358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2804881753964119499, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &289641340214144359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5747355916038808947, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &289641340214144360 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2077559652982283697, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &337122924084130182
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755748, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165782841816755749, guid: b0482697b64f14d0da0fb8f3369a5d77,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene Loader Game Object
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0482697b64f14d0da0fb8f3369a5d77, type: 3}
+--- !u!1001 &1639021353037088278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840086785772286443, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: m_Name
+      value: Control Center - Adaptive Reading Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitle
+      value: Book 2 - The Earth under the Martians
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapter
+      value: Chapter 7 - The Man on Putney Hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookTitleUI
+      value: 
+      objectReference: {fileID: 1142872455}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenUI
+      value: 
+      objectReference: {fileID: 104379308}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: bookChapterUI
+      value: 
+      objectReference: {fileID: 841439374}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: endPosition.x
+      value: -58736.434
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: chapterFullText
+      value: "I spent that night in the inn that stands at the top of Putney Hill,
+        sleeping in a made bed for the first time since my flight to Leatherhead.
+        I will not tell the needless trouble I had breaking into that house\u2014afterwards
+        I found the front door was on the latch\u2014nor how I ransacked every room
+        for food, until just on the verge of despair, in what seemed to me to be
+        a servant\u2019s bedroom, I found a rat-gnawed crust and two tins of pineapple.
+        The place had been already searched and emptied. In the bar I afterwards
+        found some biscuits and sandwiches that had been overlooked. The latter I
+        could not eat, they were too rotten, but the former not only stayed my hunger,
+        but filled my pockets. I lit no lamps, fearing some Martian might come beating
+        that part of London for food in the night. Before I went to bed I had an
+        interval of restlessness, and prowled from window to window, peering out
+        for some sign of these monsters. I slept little. As I lay in bed I found
+        myself thinking consecutively\u2014a thing I do not remember to have done
+        since my last argument with the curate. During all the intervening time my
+        mental condition had been a hurrying succession of vague emotional states
+        or a sort of stupid receptivity. But in the night my brain, reinforced, I
+        suppose, by the food I had eaten, grew clear again, and I thought. Three
+        things struggled for possession of my mind: the killing of the curate, the
+        whereabouts of the Martians, and the possible fate of my wife. The former
+        gave me no sensation of horror or remorse to recall; I saw it simply as a
+        thing done, a memory infinitely disagreeable but quite without the quality
+        of remorse. I saw myself then as I see myself now, driven step by step towards
+        that hasty blow, the creature of a sequence of accidents leading inevitably
+        to that. I felt no condemnation; yet the memory, static, unprogressive, haunted
+        me. In the silence of the night, with that sense of the nearness of God that
+        sometimes comes into the stillness and the darkness, I stood my trial, my
+        only trial, for that moment of wrath and fear. I retraced every step of our
+        conversation from the moment when I had found him crouching beside me, heedless
+        of my thirst, and pointing to the fire and smoke that streamed up from the
+        ruins of Weybridge. We had been incapable of co-operation\u2014grim chance
+        had taken no heed of that. Had I foreseen, I should have left him at Halliford.
+        But I did not foresee; and crime is to foresee and do. And I set this down
+        as I have set all this story down, as it was. There were no witnesses\u2014all
+        these things I might have concealed. But I set it down, and the reader must
+        form his judgment as he will. And when, by an effort, I had set aside that
+        picture of a prostrate body, I faced the problem of the Martians and the
+        fate of my wife. For the former I had no data; I could imagine a hundred
+        things, and so, unhappily, I could for the latter. And suddenly that night
+        became terrible. I found myself sitting up in bed, staring at the dark. I
+        found myself praying that the Heat-Ray might have suddenly and painlessly
+        struck her out of being. Since the night of my return from Leatherhead I
+        had not prayed. I had uttered prayers, fetish prayers, had prayed as heathens
+        mutter charms when I was in extremity; but now I prayed indeed, pleading
+        steadfastly and sanely, face to face with the darkness of God. Strange night!
+        Strangest in this, that so soon as dawn had come, I, who had talked with
+        God, crept out of the house like a rat leaving its hiding place\u2014a creature
+        scarcely larger, an inferior animal, a thing that for any passing whim of
+        our masters might be hunted and killed. Perhaps they also prayed confidently
+        to God. Surely, if we have learned nothing else, this war has taught us pity\u2014pity
+        for those witless souls that suffer our dominion. The morning was bright
+        and fine, and the eastern sky glowed pink, and was fretted with little golden
+        clouds. In the road that runs from the top of Putney Hill to Wimbledon was
+        a number of poor vestiges of the panic torrent that must have poured Londonward
+        on the Sunday night after the fighting began. There was a little two-wheeled
+        cart inscribed with the name of Thomas Lobb, Greengrocer, New Malden, with
+        a smashed wheel and an abandoned tin trunk; there was a straw hat trampled
+        into the now hardened mud, and at the top of West Hill a lot of blood-stained
+        glass about the overturned water trough. My movements were languid, my plans
+        of the vaguest. I had an idea of going to Leatherhead, though I knew that
+        there I had the poorest chance of finding my wife. Certainly, unless death
+        had overtaken them suddenly, my cousins and she would have fled thence; but
+        it seemed to me I might find or learn there whither the Surrey people had
+        fled. I knew I wanted to find my wife, that my heart ached for her and the
+        world of men, but I had no clear idea how the finding might be done. I was
+        also sharply aware now of my intense loneliness. From the corner I went,
+        under cover of a thicket of trees and bushes, to the edge of Wimbledon Common,
+        stretching wide and far. That dark expanse was lit in patches by yellow gorse
+        and broom; there was no red weed to be seen, and as I prowled, hesitating,
+        on the verge of the open, the sun rose, flooding it all with light and vitality.
+        I came upon a busy swarm of little frogs in a swampy place among the trees.
+        I stopped to look at them, drawing a lesson from their stout resolve to live.
+        And presently, turning suddenly, with an odd feeling of being watched, I
+        beheld something crouching amid a clump of bushes. I stood regarding this.
+        I made a step towards it, and it rose up and became a man armed with a cutlass.
+        I approached him slowly. He stood silent and motionless, regarding me. As
+        I drew nearer I perceived he was dressed in clothes as dusty and filthy as
+        my own; he looked, indeed, as though he had been dragged through a culvert.
+        Nearer, I distinguished the green slime of ditches mixing with the pale drab
+        of dried clay and shiny, coaly patches. His black hair fell over his eyes,
+        and his face was dark and dirty and sunken, so that at first I did not recognise
+        him. There was a red cut across the lower part of his face. \u201CStop!\u201D
+        he cried, when I was within ten yards of him, and I stopped. His voice was
+        hoarse. \u201CWhere do you come from?\u201D he said. I thought, surveying
+        him. \u201CI come from Mortlake,\u201D I said. \u201CI was buried near the
+        pit the Martians made about their cylinder. I have worked my way out and
+        escaped.\u201D \u201CThere is no food about here,\u201D he said. \u201CThis
+        is my country. All this hill down to the river, and back to Clapham, and
+        up to the edge of the common. There is only food for one. Which way are you
+        going?\u201D I answered slowly. \u201CI don\u2019t know,\u201D I said. \u201CI
+        have been buried in the ruins of a house thirteen or fourteen days. I don\u2019t
+        know what has happened.\u201D He looked at me doubtfully, then started, and
+        looked with a changed expression. \u201CI\u2019ve no wish to stop about here,\u201D
+        said I. \u201CI think I shall go to Leatherhead, for my wife was there.\u201D
+        He shot out a pointing finger. \u201CIt is you,\u201D said he; \u201Cthe
+        man from Woking. And you weren\u2019t killed at Weybridge?\u201D I recognised
+        him at the same moment. \u201CYou are the artilleryman who came into my garden.\u201D
+        \u201CGood luck!\u201D he said. \u201CWe are lucky ones! Fancy you!\u201D
+        He put out a hand, and I took it. \u201CI crawled up a drain,\u201D he said.
+        \u201CBut they didn\u2019t kill everyone. And after they went away I got
+        off towards Walton across the fields. But\u2014\u2014 It\u2019s not sixteen
+        days altogether\u2014and your hair is grey.\u201D He looked over his shoulder
+        suddenly. \u201COnly a rook,\u201D he said. \u201COne gets to know that birds
+        have shadows these days. This is a bit open. Let us crawl under those bushes
+        and talk.\u201D \u201CHave you seen any Martians?\u201D I said. \u201CSince
+        I crawled out\u2014\u2014\u201D \u201CThey\u2019ve gone away across London,\u201D
+        he said. \u201CI guess they\u2019ve got a bigger camp there. Of a night,
+        all over there, Hampstead way, the sky is alive with their lights. It\u2019s
+        like a great city, and in the glare you can just see them moving. By daylight
+        you can\u2019t. But nearer\u2014I haven\u2019t seen them\u2014\u201D (he
+        counted on his fingers) \u201Cfive days. Then I saw a couple across Hammersmith
+        way carrying something big. And the night before last\u201D\u2014he stopped
+        and spoke impressively\u2014\u201Cit was just a matter of lights, but it
+        was something up in the air. I believe they\u2019ve built a flying-machine,
+        and are learning to fly.\u201D I stopped, on hands and knees, for we had
+        come to the bushes. \u201CFly!\u201D \u201CYes,\u201D he said, \u201Cfly.\u201D
+        I went on into a little bower, and sat down. \u201CIt is all over with humanity,\u201D
+        I said. \u201CIf they can do that they will simply go round the world.\u201D
+        He nodded. \u201CThey will. But\u2014\u2014 It will relieve things over here
+        a bit. And besides\u2014\u2014\u201D He looked at me. \u201CAren\u2019t you
+        satisfied it is up with humanity? I am. We\u2019re down; we\u2019re beat.\u201D
+        I stared. Strange as it may seem, I had not arrived at this fact\u2014a fact
+        perfectly obvious so soon as he spoke. I had still held a vague hope; rather,
+        I had kept a lifelong habit of mind. He repeated his words, \u201CWe\u2019re
+        beat.\u201D They carried absolute conviction. \u201CIt\u2019s all over,\u201D
+        he said. \u201CThey\u2019ve lost one\u2014just one. And they\u2019ve made
+        their footing good and crippled the greatest power in the world. They\u2019ve
+        walked over us. The death of that one at Weybridge was an accident. And these
+        are only pioneers. They kept on coming. These green stars\u2014I\u2019ve
+        seen none these five or six days, but I\u2019ve no doubt they\u2019re falling
+        somewhere every night. Nothing\u2019s to be done. We\u2019re under! We\u2019re
+        beat!\u201D I made him no answer. I sat staring before me, trying in vain
+        to devise some countervailing thought. \u201CThis isn\u2019t a war,\u201D
+        said the artilleryman. \u201CIt never was a war, any more than there\u2019s
+        war between man and ants.\u201D Suddenly I recalled the night in the observatory.
+        \u201CAfter the tenth shot they fired no more\u2014at least, until the first
+        cylinder came.\u201D \u201CHow do you know?\u201D said the artilleryman.
+        I explained. He thought. \u201CSomething wrong with the gun,\u201D he said.
+        \u201CBut what if there is? They\u2019ll get it right again. And even if
+        there\u2019s a delay, how can it alter the end? It\u2019s just men and ants.
+        There\u2019s the ants builds their cities, live their lives, have wars, revolutions,
+        until the men want them out of the way, and then they go out of the way.
+        That\u2019s what we are now\u2014just ants. Only\u2014\u2014\u201D \u201CYes,\u201D
+        I said. \u201CWe\u2019re eatable ants.\u201D We sat looking at each other.
+        \u201CAnd what will they do with us?\u201D I said. \u201CThat\u2019s what
+        I\u2019ve been thinking,\u201D he said; \u201Cthat\u2019s what I\u2019ve
+        been thinking. After Weybridge I went south\u2014thinking. I saw what was
+        up. Most of the people were hard at it squealing and exciting themselves.
+        But I\u2019m not so fond of squealing. I\u2019ve been in sight of death once
+        or twice; I\u2019m not an ornamental soldier, and at the best and worst,
+        death\u2014it\u2019s just death. And it\u2019s the man that keeps on thinking
+        comes through. I saw everyone tracking away south. Says I, \u2018Food won\u2019t
+        last this way,\u2019 and I turned right back. I went for the Martians like
+        a sparrow goes for man. All round\u201D\u2014he waved a hand to the horizon\u2014\u201Cthey\u2019re
+        starving in heaps, bolting, treading on each other. . . .\u201D He saw my
+        face, and halted awkwardly. \u201CNo doubt lots who had money have gone away
+        to France,\u201D he said. He seemed to hesitate whether to apologise, met
+        my eyes, and went on: \u201CThere\u2019s food all about here. Canned things
+        in shops; wines, spirits, mineral waters; and the water mains and drains
+        are empty. Well, I was telling you what I was thinking. \u2018Here\u2019s
+        intelligent things,\u2019 I said, \u2018and it seems they want us for food.
+        First, they\u2019ll smash us up\u2014ships, machines, guns, cities, all the
+        order and organisation. All that will go. If we were the size of ants we
+        might pull through. But we\u2019re not. It\u2019s all too bulky to stop.
+        That\u2019s the first certainty.\u2019 Eh?\u201D I assented. \u201CIt is;
+        I\u2019ve thought it out. Very well, then\u2014next; at present we\u2019re
+        caught as we\u2019re wanted. A Martian has only to go a few miles to get
+        a crowd on the run. And I saw one, one day, out by Wandsworth, picking houses
+        to pieces and routing among the wreckage. But they won\u2019t keep on doing
+        that. So soon as they\u2019ve settled all our guns and ships, and smashed
+        our railways, and done all the things they are doing over there, they will
+        begin catching us systematic, picking the best and storing us in cages and
+        things. That\u2019s what they will start doing in a bit. Lord! They haven\u2019t
+        begun on us yet. Don\u2019t you see that?\u201D \u201CNot begun!\u201D I
+        exclaimed. \u201CNot begun. All that\u2019s happened so far is through our
+        not having the sense to keep quiet\u2014worrying them with guns and such
+        foolery. And losing our heads, and rushing off in crowds to where there wasn\u2019t
+        any more safety than where we were. They don\u2019t want to bother us yet.
+        They\u2019re making their things\u2014making all the things they couldn\u2019t
+        bring with them, getting things ready for the rest of their people. Very
+        likely that\u2019s why the cylinders have stopped for a bit, for fear of
+        hitting those who are here. And instead of our rushing about blind, on the
+        howl, or getting dynamite on the chance of busting them up, we\u2019ve got
+        to fix ourselves up according to the new state of affairs. That\u2019s how
+        I figure it out. It isn\u2019t quite according to what a man wants for his
+        species, but it\u2019s about what the facts point to. And that\u2019s the
+        principle I acted upon. Cities, nations, civilisation, progress\u2014it\u2019s
+        all over. That game\u2019s up. We\u2019re beat.\u201D \u201CBut if that is
+        so, what is there to live for?\u201D The artilleryman looked at me for a
+        moment. \u201CThere won\u2019t be any more blessed concerts for a million
+        years or so; there won\u2019t be any Royal Academy of Arts, and no nice little
+        feeds at restaurants. If it\u2019s amusement you\u2019re after, I reckon
+        the game is up. If you\u2019ve got any drawing-room manners or a dislike
+        to eating peas with a knife or dropping aitches, you\u2019d better chuck
+        \u2019em away. They ain\u2019t no further use.\u201D \u201CYou mean\u2014\u2014\u201D
+        \u201CI mean that men like me are going on living\u2014for the sake of the
+        breed. I tell you, I\u2019m grim set on living. And if I\u2019m not mistaken,
+        you\u2019ll show what insides you\u2019ve got, too, before long. We aren\u2019t
+        going to be exterminated. And I don\u2019t mean to be caught either, and
+        tamed and fattened and bred like a thundering ox. Ugh! Fancy those brown
+        creepers!\u201D \u201CYou don\u2019t mean to say\u2014\u2014\u201D \u201CI
+        do. I\u2019m going on, under their feet. I\u2019ve got it planned; I\u2019ve
+        thought it out. We men are beat. We don\u2019t know enough. We\u2019ve got
+        to learn before we\u2019ve got a chance. And we\u2019ve got to live and keep
+        independent while we learn. See! That\u2019s what has to be done.\u201D I
+        stared, astonished, and stirred profoundly by the man\u2019s resolution.
+        \u201CGreat God!\u201D cried I. \u201CBut you are a man indeed!\u201D And
+        suddenly I gripped his hand. \u201CEh!\u201D he said, with his eyes shining.
+        \u201CI\u2019ve thought it out, eh?\u201D \u201CGo on,\u201D I said. \u201CWell,
+        those who mean to escape their catching must get ready. I\u2019m getting
+        ready. Mind you, it isn\u2019t all of us that are made for wild beasts; and
+        that\u2019s what it\u2019s got to be. That\u2019s why I watched you. I had
+        my doubts. You\u2019re slender. I didn\u2019t know that it was you, you see,
+        or just how you\u2019d been buried. All these\u2014the sort of people that
+        lived in these houses, and all those damn little clerks that used to live
+        down that way\u2014they\u2019d be no good. They haven\u2019t any spirit in
+        them\u2014no proud dreams and no proud lusts; and a man who hasn\u2019t one
+        or the other\u2014Lord! What is he but funk and precautions? They just used
+        to skedaddle off to work\u2014I\u2019ve seen hundreds of \u2019em, bit of
+        breakfast in hand, running wild and shining to catch their little season-ticket
+        train, for fear they\u2019d get dismissed if they didn\u2019t; working at
+        businesses they were afraid to take the trouble to understand; skedaddling
+        back for fear they wouldn\u2019t be in time for dinner; keeping indoors after
+        dinner for fear of the back streets, and sleeping with the wives they married,
+        not because they wanted them, but because they had a bit of money that would
+        make for safety in their one little miserable skedaddle through the world.
+        Lives insured and a bit invested for fear of accidents. And on Sundays\u2014fear
+        of the hereafter. As if hell was built for rabbits! Well, the Martians will
+        just be a godsend to these. Nice roomy cages, fattening food, careful breeding,
+        no worry. After a week or so chasing about the fields and lands on empty
+        stomachs, they\u2019ll come and be caught cheerful. They\u2019ll be quite
+        glad after a bit. They\u2019ll wonder what people did before there were Martians
+        to take care of them. And the bar loafers, and mashers, and singers\u2014I
+        can imagine them. I can imagine them,\u201D he said, with a sort of sombre
+        gratification. \u201CThere\u2019ll be any amount of sentiment and religion
+        loose among them. There\u2019s hundreds of things I saw with my eyes that
+        I\u2019ve only begun to see clearly these last few days. There\u2019s lots
+        will take things as they are\u2014fat and stupid; and lots will be worried
+        by a sort of feeling that it\u2019s all wrong, and that they ought to be
+        doing something. Now whenever things are so that a lot of people feel they
+        ought to be doing something, the weak, and those who go weak with a lot of
+        complicated thinking, always make for a sort of do-nothing religion, very
+        pious and superior, and submit to persecution and the will of the Lord. Very
+        likely you\u2019ve seen the same thing. It\u2019s energy in a gale of funk,
+        and turned clean inside out. These cages will be full of psalms and hymns
+        and piety. And those of a less simple sort will work in a bit of\u2014what
+        is it?\u2014eroticism.\u201D He paused. \u201CVery likely these Martians
+        will make pets of some of them; train them to do tricks\u2014who knows?\u2014get
+        sentimental over the pet boy who grew up and had to be killed. And some,
+        maybe, they will train to hunt us.\u201D \u201CNo,\u201D I cried, \u201Cthat\u2019s
+        impossible! No human being\u2014\u2014\u201D \u201CWhat\u2019s the good of
+        going on with such lies?\u201D said the artilleryman. \u201CThere\u2019s
+        men who\u2019d do it cheerful. What nonsense to pretend there isn\u2019t!\u201D
+        And I succumbed to his conviction. \u201CIf they come after me,\u201D he
+        said; \u201CLord, if they come after me!\u201D and subsided into a grim meditation.
+        I sat contemplating these things. I could find nothing to bring against this
+        man\u2019s reasoning. In the days before the invasion no one would have questioned
+        my intellectual superiority to his\u2014I, a professed and recognised writer
+        on philosophical themes, and he, a common soldier; and yet he had already
+        formulated a situation that I had scarcely realised. \u201CWhat are you doing?\u201D
+        I said presently. \u201CWhat plans have you made?\u201D He hesitated. \u201CWell,
+        it\u2019s like this,\u201D he said. \u201CWhat have we to do? We have to
+        invent a sort of life where men can live and breed, and be sufficiently secure
+        to bring the children up. Yes\u2014wait a bit, and I\u2019ll make it clearer
+        what I think ought to be done. The tame ones will go like all tame beasts;
+        in a few generations they\u2019ll be big, beautiful, rich-blooded, stupid\u2014rubbish!
+        The risk is that we who keep wild will go savage\u2014degenerate into a sort
+        of big, savage rat. . . . You see, how I mean to live is underground. I\u2019ve
+        been thinking about the drains. Of course those who don\u2019t know drains
+        think horrible things; but under this London are miles and miles\u2014hundreds
+        of miles\u2014and a few days rain and London empty will leave them sweet
+        and clean. The main drains are big enough and airy enough for anyone. Then
+        there\u2019s cellars, vaults, stores, from which bolting passages may be
+        made to the drains. And the railway tunnels and subways. Eh? You begin to
+        see? And we form a band\u2014able-bodied, clean-minded men. We\u2019re not
+        going to pick up any rubbish that drifts in. Weaklings go out again.\u201D
+        \u201CAs you meant me to go?\u201D \u201CWell\u2014I parleyed, didn\u2019t
+        I?\u201D \u201CWe won\u2019t quarrel about that. Go on.\u201D \u201CThose
+        who stop obey orders. Able-bodied, clean-minded women we want also\u2014mothers
+        and teachers. No lackadaisical ladies\u2014no blasted rolling eyes. We can\u2019t
+        have any weak or silly. Life is real again, and the useless and cumbersome
+        and mischievous have to die. They ought to die. They ought to be willing
+        to die. It\u2019s a sort of disloyalty, after all, to live and taint the
+        race. And they can\u2019t be happy. Moreover, dying\u2019s none so dreadful;
+        it\u2019s the funking makes it bad. And in all those places we shall gather.
+        Our district will be London. And we may even be able to keep a watch, and
+        run about in the open when the Martians keep away. Play cricket, perhaps.
+        That\u2019s how we shall save the race. Eh? It\u2019s a possible thing? But
+        saving the race is nothing in itself. As I say, that\u2019s only being rats.
+        It\u2019s saving our knowledge and adding to it is the thing. There men like
+        you come in. There\u2019s books, there\u2019s models. We must make great
+        safe places down deep, and get all the books we can; not novels and poetry
+        swipes, but ideas, science books. That\u2019s where men like you come in.
+        We must go to the British Museum and pick all those books through. Especially
+        we must keep up our science\u2014learn more. We must watch these Martians.
+        Some of us must go as spies. When it\u2019s all working, perhaps I will.
+        Get caught, I mean. And the great thing is, we must leave the Martians alone.
+        We mustn\u2019t even steal. If we get in their way, we clear out. We must
+        show them we mean no harm. Yes, I know. But they\u2019re intelligent things,
+        and they won\u2019t hunt us down if they have all they want, and think we\u2019re
+        just harmless vermin.\u201D The artilleryman paused and laid a brown hand
+        upon my arm. \u201CAfter all, it may not be so much we may have to learn
+        before\u2014Just imagine this: four or five of their fighting machines suddenly
+        starting off\u2014Heat-Rays right and left, and not a Martian in \u2019em.
+        Not a Martian in \u2019em, but men\u2014men who have learned the way how.
+        It may be in my time, even\u2014those men. Fancy having one of them lovely
+        things, with its Heat-Ray wide and free! Fancy having it in control! What
+        would it matter if you smashed to smithereens at the end of the run, after
+        a bust like that? I reckon the Martians\u2019ll open their beautiful eyes!
+        Can\u2019t you see them, man? Can\u2019t you see them hurrying, hurrying\u2014puffing
+        and blowing and hooting to their other mechanical affairs? Something out
+        of gear in every case. And swish, bang, rattle, swish! Just as they are fumbling
+        over it, swish comes the Heat-Ray, and, behold! man has come back to his
+        own.\u201D For a while the imaginative daring of the artilleryman, and the
+        tone of assurance and courage he assumed, completely dominated my mind. I
+        believed unhesitatingly both in his forecast of human destiny and in the
+        practicability of his astonishing scheme, and the reader who thinks me susceptible
+        and foolish must contrast his position, reading steadily with all his thoughts
+        about his subject, and mine, crouching fearfully in the bushes and listening,
+        distracted by apprehension. We talked in this manner through the early morning
+        time, and later crept out of the bushes, and, after scanning the sky for
+        Martians, hurried precipitately to the house on Putney Hill where he had
+        made his lair. It was the coal cellar of the place, and when I saw the work
+        he had spent a week upon\u2014it was a burrow scarcely ten yards long, which
+        he designed to reach to the main drain on Putney Hill\u2014I had my first
+        inkling of the gulf between his dreams and his powers. Such a hole I could
+        have dug in a day. But I believed in him sufficiently to work with him all
+        that morning until past midday at his digging. We had a garden barrow and
+        shot the earth we removed against the kitchen range. We refreshed ourselves
+        with a tin of mock-turtle soup and wine from the neighbouring pantry. I found
+        a curious relief from the aching strangeness of the world in this steady
+        labour. As we worked, I turned his project over in my mind, and presently
+        objections and doubts began to arise; but I worked there all the morning,
+        so glad was I to find myself with a purpose again. After working an hour
+        I began to speculate on the distance one had to go before the cloaca was
+        reached, the chances we had of missing it altogether. My immediate trouble
+        was why we should dig this long tunnel, when it was possible to get into
+        the drain at once down one of the manholes, and work back to the house. It
+        seemed to me, too, that the house was inconveniently chosen, and required
+        a needless length of tunnel. And just as I was beginning to face these things,
+        the artilleryman stopped digging, and looked at me. \u201CWe\u2019re working
+        well,\u201D he said. He put down his spade. \u201CLet us knock off a bit\u201D
+        he said. \u201CI think it\u2019s time we reconnoitred from the roof of the
+        house.\u201D I was for going on, and after a little hesitation he resumed
+        his spade; and then suddenly I was struck by a thought. I stopped, and so
+        did he at once. \u201CWhy were you walking about the common,\u201D I said,
+        \u201Cinstead of being here?\u201D \u201CTaking the air,\u201D he said. \u201CI
+        was coming back. It\u2019s safer by night.\u201D \u201CBut the work?\u201D
+        \u201COh, one can\u2019t always work,\u201D he said, and in a flash I saw
+        the man plain. He hesitated, holding his spade. \u201CWe ought to reconnoitre
+        now,\u201D he said, \u201Cbecause if any come near they may hear the spades
+        and drop upon us unawares.\u201D I was no longer disposed to object. We went
+        together to the roof and stood on a ladder peeping out of the roof door.
+        No Martians were to be seen, and we ventured out on the tiles, and slipped
+        down under shelter of the parapet. From this position a shrubbery hid the
+        greater portion of Putney, but we could see the river below, a bubbly mass
+        of red weed, and the low parts of Lambeth flooded and red. The red creeper
+        swarmed up the trees about the old palace, and their branches stretched gaunt
+        and dead, and set with shrivelled leaves, from amid its clusters. It was
+        strange how entirely dependent both these things were upon flowing water
+        for their propagation. About us neither had gained a footing; laburnums,
+        pink mays, snowballs, and trees of arbor-vitae, rose out of laurels and hydrangeas,
+        green and brilliant into the sunlight. Beyond Kensington dense smoke was
+        rising, and that and a blue haze hid the northward hills. The artilleryman
+        began to tell me of the sort of people who still remained in London. \u201COne
+        night last week,\u201D he said, \u201Csome fools got the electric light in
+        order, and there was all Regent Street and the Circus ablaze, crowded with
+        painted and ragged drunkards, men and women, dancing and shouting till dawn.
+        A man who was there told me. And as the day came they became aware of a fighting-machine
+        standing near by the Langham and looking down at them. Heaven knows how long
+        he had been there. It must have given some of them a nasty turn. He came
+        down the road towards them, and picked up nearly a hundred too drunk or frightened
+        to run away.\u201D Grotesque gleam of a time no history will ever fully describe!
+        From that, in answer to my questions, he came round to his grandiose plans
+        again. He grew enthusiastic. He talked so eloquently of the possibility of
+        capturing a fighting-machine that I more than half believed in him again.
+        But now that I was beginning to understand something of his quality, I could
+        divine the stress he laid on doing nothing precipitately. And I noted that
+        now there was no question that he personally was to capture and fight the
+        great machine. After a time we went down to the cellar. Neither of us seemed
+        disposed to resume digging, and when he suggested a meal, I was nothing loath.
+        He became suddenly very generous, and when we had eaten he went away and
+        returned with some excellent cigars. We lit these, and his optimism glowed.
+        He was inclined to regard my coming as a great occasion. \u201CThere\u2019s
+        some champagne in the cellar,\u201D he said. \u201CWe can dig better on this
+        Thames-side burgundy,\u201D said I. \u201CNo,\u201D said he; \u201CI am host
+        today. Champagne! Great God! We\u2019ve a heavy enough task before us! Let
+        us take a rest and gather strength while we may. Look at these blistered
+        hands!\u201D And pursuant to this idea of a holiday, he insisted upon playing
+        cards after we had eaten. He taught me euchre, and after dividing London
+        between us, I taking the northern side and he the southern, we played for
+        parish points. Grotesque and foolish as this will seem to the sober reader,
+        it is absolutely true, and what is more remarkable, I found the card game
+        and several others we played extremely interesting. Strange mind of man!
+        that, with our species upon the edge of extermination or appalling degradation,
+        with no clear prospect before us but the chance of a horrible death, we could
+        sit following the chance of this painted pasteboard, and playing the \u201Cjoker\u201D
+        with vivid delight. Afterwards he taught me poker, and I beat him at three
+        tough chess games. When dark came we decided to take the risk, and lit a
+        lamp. After an interminable string of games, we supped, and the artilleryman
+        finished the champagne. We went on smoking the cigars. He was no longer the
+        energetic regenerator of his species I had encountered in the morning. He
+        was still optimistic, but it was a less kinetic, a more thoughtful optimism.
+        I remember he wound up with my health, proposed in a speech of small variety
+        and considerable intermittence. I took a cigar, and went upstairs to look
+        at the lights of which he had spoken that blazed so greenly along the Highgate
+        hills. At first I stared unintelligently across the London valley. The northern
+        hills were shrouded in darkness; the fires near Kensington glowed redly,
+        and now and then an orange-red tongue of flame flashed up and vanished in
+        the deep blue night. All the rest of London was black. Then, nearer, I perceived
+        a strange light, a pale, violet-purple fluorescent glow, quivering under
+        the night breeze. For a space I could not understand it, and then I knew
+        that it must be the red weed from which this faint irradiation proceeded.
+        With that realisation my dormant sense of wonder, my sense of the proportion
+        of things, awoke again. I glanced from that to Mars, red and clear, glowing
+        high in the west, and then gazed long and earnestly at the darkness of Hampstead
+        and Highgate. I remained a very long time upon the roof, wondering at the
+        grotesque changes of the day. I recalled my mental states from the midnight
+        prayer to the foolish card-playing. I had a violent revulsion of feeling.
+        I remember I flung away the cigar with a certain wasteful symbolism. My folly
+        came to me with glaring exaggeration. I seemed a traitor to my wife and to
+        my kind; I was filled with remorse. I resolved to leave this strange undisciplined
+        dreamer of great things to his drink and gluttony, and to go on into London.
+        There, it seemed to me, I had the best chance of learning what the Martians
+        and my fellowmen were doing. I was still upon the roof when the late moon
+        rose."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: settingScreenUI
+      value: 
+      objectReference: {fileID: 8305740129509405592}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: startPosition.x
+      value: 58736.434
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownFontSize
+      value: 
+      objectReference: {fileID: 712616971}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: totalTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 993937539}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: currentTimeDisplayHUD
+      value: 
+      objectReference: {fileID: 906627047}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: widthOfTextboxInUnity
+      value: 115552.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReadingTextbox
+      value: 
+      objectReference: {fileID: 1074279340}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPlayButton
+      value: 
+      objectReference: {fileID: 442807363}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: mainScreenReaderPlayerUI
+      value: 
+      objectReference: {fileID: 1758625967}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: adaptiveReaderPauseButton
+      value: 
+      objectReference: {fileID: 776930059}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownWordsPerMinuteRates
+      value: 
+      objectReference: {fileID: 125708896}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: moreChaptersOverlayScreenUI
+      value: 
+      objectReference: {fileID: 2092994285}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: dropdownAverageCharactersPerWord
+      value: 
+      objectReference: {fileID: 1977022149}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: numberOfCharactersIncludingSpaces
+      value: 30166
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: timeRequiredForTextboxToLeaveOffScreen
+      value: 1205.2941
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+        type: 3}
+      propertyPath: distanceForTextboxToBeUpAgainstScreenRightEdge
+      value: 58736.434
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7415091ac6d37496e8632c55360e5172, type: 3}
+--- !u!114 &3287821922221219435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2958023954298580973, guid: b0482697b64f14d0da0fb8f3369a5d77,
+    type: 3}
+  m_PrefabInstance: {fileID: 337122924084130182}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ebba4aaed1d4377bc55bc162fc5520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4253378664226371484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3294928899913183626, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5086594063347104557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5776376031143558459, guid: 7415091ac6d37496e8632c55360e5172,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639021353037088278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253378664226371484}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01641e502ff5461292b0e6f4a2c3fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7354263485538077296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7354263484690076355, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_Name
+      value: Tutorial Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: nextButton
+      value: 
+      objectReference: {fileID: 289641340214144356}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: finishButton
+      value: 
+      objectReference: {fileID: 289641340214144357}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: previousButton
+      value: 
+      objectReference: {fileID: 289641340214144358}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialScreenUI
+      value: 
+      objectReference: {fileID: 289641340214144359}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: tutorialInstructionsTextbox
+      value: 
+      objectReference: {fileID: 289641340214144355}
+    - target: {fileID: 7354263484690076356, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: adaptiveReadingManagerScript
+      value: 
+      objectReference: {fileID: 4253378664226371484}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354263484690076357, guid: efe028b93f51c4eb589c0304fc0b8e44,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: efe028b93f51c4eb589c0304fc0b8e44, type: 3}
+--- !u!1 &8305740129509405592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8594814120646549242, guid: 3313db844cb7e4ef39fba4b18f1dd31a,
+    type: 3}
+  m_PrefabInstance: {fileID: 289641340214144354}
+  m_PrefabAsset: {fileID: 0}

@@ -13,9 +13,8 @@ public class TutorialManager : MonoBehaviour
     //Config Param:
     [Header("Boolean ON/OF - Screen & Buttons")]
     [SerializeField] GameObject tutorialScreenUI;
-    [SerializeField] GameObject skipButton;
     [SerializeField] GameObject previousButton;
-    [SerializeField] GameObject continueButton;
+    [SerializeField] GameObject nextButton;
     [SerializeField] GameObject finishButton;
 
     [Header("Textbox UI")]
@@ -60,12 +59,12 @@ public class TutorialManager : MonoBehaviour
 
         if (tutorialInstructionsTextbox.text == tutorialInstructionsArray[indexForTutorialInstructionsDisplay] & indexForTutorialInstructionsDisplay < tutorialInstructionsArray.Length - 1)
         {
-            continueButton.SetActive(true); 
+            nextButton.SetActive(true); 
         }
 
         else
         {
-            continueButton.SetActive(false);
+            nextButton.SetActive(false);
         }
 
         if (indexForTutorialInstructionsDisplay == tutorialInstructionsArray.Length - 1)
@@ -79,7 +78,7 @@ public class TutorialManager : MonoBehaviour
         }  
     }
 
-    public void SkipButtonPressed()
+    public void ExitButtonPressed()
     {
         tutorialScreenUI.SetActive(false);
 
@@ -97,7 +96,7 @@ public class TutorialManager : MonoBehaviour
         }
     }
 
-    public void ContinueButtonPressed()
+    public void NextButtonPressed()
     {
         if (indexForTutorialInstructionsDisplay < tutorialInstructionsArray.Length - 1)
         {

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ba4100d1a78394463b8506fca3e2d101
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Whitney Semibold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4a33098e2527746cbafc5e6569f37150, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

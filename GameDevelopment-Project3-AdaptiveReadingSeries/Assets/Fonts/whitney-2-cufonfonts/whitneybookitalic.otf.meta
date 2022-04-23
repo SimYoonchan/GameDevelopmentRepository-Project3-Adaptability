@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4fb28609a62c6434ebb0fc8248e8d308
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Whitney Book
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 46328e90abc564d1d82e41d9159e169a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

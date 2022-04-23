@@ -28,10 +28,18 @@ public class SceneLoader : MonoBehaviour
         
     }
 
-    public void GoToMainMenu()
+    public void GoToFirstScreen()
     {
         currentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentScene - currentScene);
+
+        //StartCoroutine(LoadWithEndOfSceneTransitionAndMusicTransition(0));
+    }
+
+    public void GoToMainMenu()
+    {
+        currentScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentScene - currentScene + 1);
 
         //StartCoroutine(LoadWithEndOfSceneTransitionAndMusicTransition(0));
     }
@@ -65,11 +73,6 @@ public class SceneLoader : MonoBehaviour
 
 
     //Alice's Adventures in Wonderland:
-    public void GoToBookHubAliceAdventureInWonderland()
-    {
-        SceneManager.LoadScene("Book Hub - Alice's Adventures in Wonderland");
-    }
-
     public void GoToAliceAdventureInWonderlandChapter1()
     {
         SceneManager.LoadScene("Book Chapter (Alice's Adventures in Wonderland - Chp 1) - Down the Rabbit-Hole");
@@ -146,12 +149,6 @@ public class SceneLoader : MonoBehaviour
 
 
     //The Great Gatsby:
-    public void GoToBookHubTheGreatGatsby()
-    {
-        SceneManager.LoadScene("Book Hub - The Great Gatsby");
-        //FindObjectOfType<AdaptiveReadingManager>().ResetAdaptiveReader();
-    }
-
     public void GoToTheGreatGatsbyChapter1()
     {
         SceneManager.LoadScene("Book Chapter (The Great Gatsby - Chp 1) - I");
@@ -210,11 +207,6 @@ public class SceneLoader : MonoBehaviour
 
 
     //A Scandal in Bohemia:
-    public void GoToBookHubAScandalInBohemia()
-    {
-        SceneManager.LoadScene("Book Hub - A Scandal in Bohemia");
-    }
-
     public void GoToAScandalInBohemiaChapter1()
     {
         SceneManager.LoadScene("Book Chapter (A Scandal in Bohemia - Chp 1) - I");
@@ -236,11 +228,6 @@ public class SceneLoader : MonoBehaviour
 
 
     //The Coming of the Martians:
-    public void GoToBookHubTheComingOfTheMartians()
-    {
-        SceneManager.LoadScene("Book Hub - The Coming of the Martians");
-    }
-
     public void GoToTheComingOfTheMartiansChapter1()
     {
         SceneManager.LoadScene("Book Chapter (The Coming of the Martians - Chp 1) - The Eve of War");
@@ -346,11 +333,6 @@ public class SceneLoader : MonoBehaviour
 
 
     //The Earth Under the Martians
-    public void GoToBookHubTheEarthUnderTheMartians()
-    {
-        SceneManager.LoadScene("Book Hub - The Earth under the Martians");
-    }
-
     public void GoToTheEarthUnderTheMartiansChapter1()
     {
         SceneManager.LoadScene("Book Chapter (The Earth under the Martians - Chp 1) - Under Foot");

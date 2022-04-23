@@ -44,52 +44,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialScreenUI: {fileID: 0}
-  skipButton: {fileID: 0}
   previousButton: {fileID: 0}
-  continueButton: {fileID: 0}
+  nextButton: {fileID: 0}
   finishButton: {fileID: 0}
-  doTutorialAgainButton: {fileID: 0}
   tutorialInstructionsTextbox: {fileID: 0}
   tutorialInstructionsArray:
-  - "Welcome to the <b>Adaptive Reading Series</b>! This is a tutorial explaining
-    how the <b>Adaptive Reader Series</b> Software works. If you are already familiar
-    with this tutorial, please feel free to press the \u201CSkip\u201D button below."
-  - "To start the <b>Adaptive Reader Series</b> Software, go to the 3 buttons on
-    the middle-bottom of the main screen. \n\nPress the \u2018Two-horizontal-lines\u2019
-    button. This is the Play-Button. After pressing the Play-Button, a \u2018Right-facing-triangle\u2019
-    button will appear. This is the Pause-Button. If you want to pause, press this
-    Pause-Button.\r\n\r\nYou can also press the \u2018Space\u2019 button on your
-    Keyboard to do the Play/Pause functionality for you.\r"
-  - 'On the middle-bottom of the main screen, there is also a ''Circular-arrow''
-    button. This button resets the adaptive reader to the start.
+  - Welcome to the <b>Adaptability</b>!
+  - 'To fast forward in the Chapter you are reading, press and hold the number "4"
+    on the keyboard for x1 speed, "5" for x2 speed and "6" for x3 speed.
 
 
-    Along with
-    the "Play/Pause" button and the "Restart" button, there is also a ''Right-triangle-with-a-line''
-    button.
 
+    To
+    go backwards in the Chapter you are reading, press and hold the number "3" on
+    the keyboard for x1 speed, "2" for x2 speed and "1" for x3 speed.
 
-    If you see this, this button takes you to the next chapter.'
-  - "To fast forward in the Chapter you are reading, press and hold the number \"4\"
-    on the keyboard for x1 speed, \"5\" for x2 speed and \"6\" for x3 speed.\n\r\nTo
-    go backwards in the Chapter you are reading, press and hold the number \"3\"
-    on the keyboard for x1 speed, \"2\" for x2 speed and \"1\" for x3 speed.\n\r"
-  - "On the main screen, there is also a \u2018Three-Dots\u2019 button at the top
-    right corner. By pressing this, it takes you to the Options Menu. You can also
-    do this by pressing either \u2018Esc\u2019 or \u2018P\u2019 button on your keyboard.\r\n"
-  - "In the Options Menu, you can make changes like the following: \u2018Average-Characters-Per-Word\u2019,
+'
+  - "In the Settings Menu, you can make changes like the following: \u2018Average-Characters-Per-Word\u2019,
     \u2018Words-Per-Minute-Rates\u2019, and \u2018Font-Size\u2019.\r\n\r\nIncreasing
     the \u2018Average-Characters-Per-Word\u2019 and increasing the \u2018Words-Per-Minute-Rates\u2019
     will both increase the speed at which the reading occurs.\r\n\r\nBefore pressing
     Play on the main screen, we recommend that you set up the \u2018Average-Characters-Per-Word,
     \u2018Words-Per-Minute-Rates\u2019 and the \u2018Font-Size\u2019 on this Options
-    Menu. Then, exit out of the Options Menu by either clicking on \u2018Resume\u2019
-    or by pressing either \u2018Esc\u2019 or \u2018P\u2019 button again.\r"
-  - Back on the main screen, there is a "Tutorial Icon" button on the top left. If
-    you press this, you will be able to see this same tutorial again.
-  - To the left of the "Tutorial Icon" button is the "Back" button. This will take
-    you to the Book Hub where you can select other chapters.
-  - We hope you enjoy your experience with using our <b>Adaptive Reading Series</b>
-    Software!
+    Menu."
+  - We hope you enjoy your experience with using our <b>Adaptability</b> Software!
   tutorialManagerScript: {fileID: 7354263484690076355}
   adaptiveReadingManagerScript: {fileID: 0}

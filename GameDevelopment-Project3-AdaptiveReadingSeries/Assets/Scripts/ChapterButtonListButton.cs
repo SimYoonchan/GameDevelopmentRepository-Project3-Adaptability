@@ -90,7 +90,7 @@ public class ChapterButtonListButton : MonoBehaviour
                 sceneLoader.GoToAliceAdventureInWonderlandChapter10();
             }
 
-            if (chapterNameOnButton.text == "Chapter 11 - Who Stole the Tarts") //Got rid of question mark for Unity.
+            if (chapterNameOnButton.text == "Chapter 11 - Who Stole the Tarts?") //Got rid of question mark for Unity.
             {
                 sceneLoader.GoToAliceAdventureInWonderlandChapter11();
             }
@@ -179,7 +179,7 @@ public class ChapterButtonListButton : MonoBehaviour
 
 
         //The Coming of the Martians:
-        if (bookNameConfirmation == "The Coming of the Martians")
+        if (bookNameConfirmation == "Book 1 - The Coming of the Martians")
         {
             if (chapterNameOnButton.text == "Chapter 1 - The Eve of War")
             {
@@ -270,7 +270,7 @@ public class ChapterButtonListButton : MonoBehaviour
 
 
         //The Earth under the Martians:
-        if (bookNameConfirmation == "The Earth under the Martians")
+        if (bookNameConfirmation == "Book 2 - The Earth under the Martians")
         {
             if (chapterNameOnButton.text == "Chapter 1 - Under Foot")
             {

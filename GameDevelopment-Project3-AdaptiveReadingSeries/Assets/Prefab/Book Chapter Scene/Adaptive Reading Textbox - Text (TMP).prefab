@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -213,8 +214,8 @@ MonoBehaviour:
     happen, that it seemed quite dull and stupid for life to go on in the common
     way. So she set to work, and very soon finished off the cake."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: abbca866107494f029657fea21defb36, type: 2}
-  m_sharedMaterial: {fileID: -1420493485825484348, guid: abbca866107494f029657fea21defb36,
+  m_fontAsset: {fileID: 11400000, guid: 8417fac70349541078debf721433d3c8, type: 2}
+  m_sharedMaterial: {fileID: 191615631190651053, guid: 8417fac70349541078debf721433d3c8,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

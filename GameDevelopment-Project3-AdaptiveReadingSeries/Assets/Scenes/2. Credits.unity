@@ -400,6 +400,661 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1 &1196344953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196344954}
+  - component: {fileID: 1196344957}
+  - component: {fileID: 1196344956}
+  - component: {fileID: 1196344955}
+  m_Layer: 5
+  m_Name: Text (TMP) - Part 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1196344954
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196344953}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5123477835792684087}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -400}
+  m_SizeDelta: {x: 1000, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1196344955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196344953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &1196344956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196344953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<b><u><size=60><align=center>Book Covers</align></size></u></b>\n\n<b>The
+    Adventures of Sherlock Holmes</b>\r\nAttribution: \u201CSherlock Holmes [minimalist
+    poster]\u201D by Kevin Sabu from https://www.artstation.com/artwork/zOJZeq. Permission
+    granted by creator.\r\n\r\n<b>Alice\u2019s Adventures in Wonderland</b>\r\nAttribution:
+    \u201CAlice in Wonderland - Book Cover\u201D by Johann Dakitsch from https://www.artstation.com/artwork/N5n9rd\r\n\r\n<b>The
+    Great Gatsby:</b>\r\nAttribution: \u201CThe Great Gatsby\u201D by littlekelly
+    from\r\nhttps://www.deviantart.com/littlekelly/art/The-Great-Gatsby-522509485\r\n\r\n<b>The
+    War of the Worlds</b>\r\nAttribution: \u201CWar of the worlds\u201D by Fenrid
+    from https://www.deviantart.com/fenrid/art/War-of-the-worlds-78916734\r\n\r\n<b>Moby
+    Dick</b>\r\nAttribution: \u201CMoby Dick Book Cover\u201D by mario0357 from https://www.deviantart.com/mario0357/art/Moby-Dick-Book-Cover-409499714\r\n\r\n<b>1984</b>\r\nAttribution:
+    \u201C1984 Book Cover\u201D by mario0357 from https://www.deviantart.com/mario0357/art/1984-Book-Cover-409497357\r\n\r\n<b>Frankenstein</b>\r\nAttribution:
+    \u201CFrankenstein Book Cover\u201D by mario0357 from https://www.deviantart.com/mario0357/art/Frankenstein-Book-Cover-409499388\r\n\r\n<b>Peter
+    Pan</b>\r\nAttribution: \u201CPeter Pan\u201D by Yuji Schmidt from https://www.artstation.com/artwork/yJAGy5\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 05051199cc1d6405b9794cb19e72e75b, type: 2}
+  m_sharedMaterial: {fileID: 9063834732111335338, guid: 05051199cc1d6405b9794cb19e72e75b,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1196344957
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196344953}
+  m_CullTransparentMesh: 0
+--- !u!1 &1217046364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217046365}
+  - component: {fileID: 1217046368}
+  - component: {fileID: 1217046367}
+  - component: {fileID: 1217046366}
+  m_Layer: 5
+  m_Name: Text (TMP) - Part 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1217046365
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217046364}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5123477835792684087}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -1000}
+  m_SizeDelta: {x: 1000, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1217046366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217046364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &1217046367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217046364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "All of the books utilized for the Adaptability applications are from Public
+    Domain. The authors are attributed for each of their respective books in the
+    library section of the application and the illustrators for the book covers are
+    accredited in the credits.\r\n\r\nAs the creator, the property of this application
+    belongs to Charles Yoonchan Sim. This application is developed in collaboration
+    with Justin Evans who provided the clinical research.\r\n\r\nThank you for using
+    Adaptability!\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 05051199cc1d6405b9794cb19e72e75b, type: 2}
+  m_sharedMaterial: {fileID: 9063834732111335338, guid: 05051199cc1d6405b9794cb19e72e75b,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1217046368
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217046364}
+  m_CullTransparentMesh: 0
+--- !u!1 &1363026333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363026334}
+  - component: {fileID: 1363026337}
+  - component: {fileID: 1363026336}
+  - component: {fileID: 1363026335}
+  m_Layer: 5
+  m_Name: Text (TMP) - Part 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1363026334
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363026333}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5123477835792684087}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -800}
+  m_SizeDelta: {x: 1000, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1363026335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363026333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &1363026336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363026333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<b><u><size=60><align=center>Fonts</align></size></u></b>\n\n<b>General</b>\r\nAttribution:
+    Gotham from https://www.cufonfonts.com/font/gotham-6 \r\n\r\n<b>General</b>\r\nAttribution:
+    Whitney from https://www.cufonfonts.com/font/whitney-2 \r\n\r\n<b>The Adventures
+    of Sherlock Holmes:</b>\r\nAttribution: \u201CSherlock Holmes\u201D by Alphabet
+    & Type from dafont.com\r\n\r\n<b>Alice\u2019s Adventures in Wonderland:</b>\r\nAttribution:
+    \u201CAlice in Wonderland\u201D by Marco Trujillo L\xF3pez from dafont.com\r\n\r\n<b>The
+    Great Gatsby:</b>\r\nAttribution: \u201CGatsby Inline\u201D by Peter Olexa from
+    dafont.com\r\n\r\n<b>The War of the Worlds:</b>\r\nAttribution: \u201CWarpaint\u201D
+    by Chepi Dev from dafont.com\r\n\r\n<b>Moby Dick:</b>\r\nAttribution: \u201CThe
+    Leviathan\u201D by Noscheyl from dafont.com\r\n\r\n<b>1984:</b>\r\nAttribution:
+    \u201CBig Brother\u201D by MarsCat from dafont.com\r\n\r\n<b>Frankenstein:</b>\r\nAttribution:
+    \u201CEvil of Frankenstein\u201D by Brain Eaters Font Co. from dafont.com\r\n\r\n<b>Peter
+    Pan:</b>\r\nAttribution: \u201CWaltograph\u201D by Justin Callaghan from dafont.com\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 05051199cc1d6405b9794cb19e72e75b, type: 2}
+  m_sharedMaterial: {fileID: 9063834732111335338, guid: 05051199cc1d6405b9794cb19e72e75b,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1363026337
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363026333}
+  m_CullTransparentMesh: 0
+--- !u!1 &1783938640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1783938641}
+  - component: {fileID: 1783938644}
+  - component: {fileID: 1783938643}
+  - component: {fileID: 1783938642}
+  m_Layer: 5
+  m_Name: Text (TMP) - Part 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1783938641
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783938640}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5123477835792684087}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -600}
+  m_SizeDelta: {x: 1000, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1783938642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783938640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &1783938643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783938640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<b><u><size=60><align=center>Book Overlay Illustrations</align></size></u></b>\n\n<b>Alice's
+    Adventures in Wonderland</b> \r\nAttribution: Free for commercial use. Link:
+    https://pixabay.com/illustrations/vintage-book-illustration-1794705/ \r\n \r\n<b>Adventures
+    of Sherlock Holmes</b> \r\nAttribution: Photo by Simon Hurry on Unsplash. Link:
+    https://unsplash.com/photos/GQlu1Phtu_Y \r\n \r\n<b>The Great Gatsby</b> \r\nAttribution:
+    Photo by Cesira Alvarado on Unsplash Link: https://unsplash.com/photos/Wm_wpUzZ9no
+    \r\n \r\n<b>War of the Worlds</b> \r\nAttribution: Free for commercial use. Link:
+    https://pixabay.com/photos/close-encounters-of-the-3rd-degree-2853070/ \r\n \r\n<b>1984</b>
+    \r\nAttribution: Photo by Denys Nevozhai on Unsplash. Link: https://unsplash.com/photos/rQlIcyjB6kA
+    \r\n \r\n<b>Peter Pan</b> \r\nAttribution: Free for commercial use. Link: https://pixabay.com/photos/big-ben-london-architecture-britain-1118888/
+    \r\n \r\n<b>Moby Dick</b> \r\nAttribution: Photo by Zoltan Tasi on Unsplash.
+    Link: https://unsplash.com/photos/HTpAIzZRHvw \r\n \r\n<b>Frankenstein</b> \r\nAttribution:
+    Photo by Scott Rodgerson on Unsplash Link: https://unsplash.com/photos/ZLHBjxbCCEc
+    \r\n\r\n\r\n<b>The Adventures of Sherlock Holmes:</b>\r\nAttribution: \u201CArchitectural
+    De-Modernization\u201D by DylanPierpont from https://www.deviantart.com/dylanpierpont/art/Architectural-De-Modernization-515904980\r\n\r\n<b>Alice\u2019s
+    Adventures in Wonderland:</b>\r\nAttribution: \u201Cwonderland\u201D by ibenzani
+    from https://www.deviantart.com/ibenzani/art/wonderland-302770007\r\n\r\n<b>The
+    Great Gatsby:</b>\r\nAttribution: \u201CDieselpunk City\u201D by AngHuiQing from
+    https://www.deviantart.com/anghuiqing/art/Dieselpunk-City-600523168\r\n\r\n<b>The
+    War of the Worlds:</b>\r\nAttribution: \u201CWar of The Worlds - HG Wells - Men
+    Hunting by\u201D by TroC--czarnyrobert from https://www.deviantart.com/troc--czarnyrobert/art/War-of-The-Worlds-HG-Wells-Men-Hunting-by-405720002\r\n\r\n<b>Frankenstein:</b>\r\nAttribution:
+    \u201CFrankensteins Laboratory\u201D by sanggene from https://www.deviantart.com/sanggene/art/Frankensteins-Laboratory-297389189\r\n\r\n<b>Moby
+    Dick:</b>\r\nAttribution: \u201CMoby Dick\u201D by TolyanMy from https://www.deviantart.com/tolyanmy/art/Moby-Dick-290957075\r\n\r\n<b>1984:</b>\r\nAttribution:
+    \u201C1984 - Ministry of Truth\u201D by Martin Loureiro from https://www.artstation.com/artwork/24rBK\r\n\r\n<b>Peter
+    Pan:</b>\r\nAttribution: \u201CPeter Pan spying on Captain Hook\u201D by \r\nprettyloosemate
+    from\r\nhttps://www.deviantart.com/prettyloosemate/art/Peter-Pan-spying-on-Captain-Hook-431600983\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 05051199cc1d6405b9794cb19e72e75b, type: 2}
+  m_sharedMaterial: {fileID: 9063834732111335338, guid: 05051199cc1d6405b9794cb19e72e75b,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1783938644
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783938640}
+  m_CullTransparentMesh: 0
 --- !u!1001 &3366162406496018426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,6 +1156,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1112800443505113502, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: b1099b9f24f804e2fb8508dd7be25f90,
+        type: 2}
+    - target: {fileID: 1112800443505113502, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112800443505113502, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112800443505113502, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112800443505113502, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6239176113876235807, guid: b1099b9f24f804e2fb8508dd7be25f90,
+        type: 2}
+    - target: {fileID: 1112800443505113502, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294638330
+      objectReference: {fileID: 0}
     - target: {fileID: 1112800443694604624, guid: f4630c5c504c44d22a94abd2add52685,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -616,96 +1303,331 @@ PrefabInstance:
       propertyPath: m_Name
       value: Credits Manager - Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5123477834896827400, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_text
+      value: 'Charles Yoonchan Sim
+
+
+        Charles Yoonchan Sim
+
+
+        Justin
+        Evans'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477834896827400, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 5123477834896827400, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5123477834896827403, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477834896827403, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477834896827403, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477834896827403, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477834896827403, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477834896827403, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178850, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178850, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178850, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178850, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178850, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178850, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178850, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -200
+      objectReference: {fileID: 0}
     - target: {fileID: 5123477835359178851, guid: f4630c5c504c44d22a94abd2add52685,
         type: 3}
       propertyPath: m_text
-      value: "<b><u><size=50><align=center>Music</align></size></u></b>\n<b>Main
-        Screen:</b>\r\nAttribution: Window#3 by Two Bicycles from https://freemusicarchive.org/music/Two_Bicycles/Beko_Crash_Symbols_1/07_Window_3\r\nLicense:
-        https://creativecommons.org/licenses/by-nc/3.0/us/\r\n\r\n<b>End Credit:</b>\r\nAttribution:
-        Little Chance by Jahzzar from https://freemusicarchive.org/music/Jahzzar/Tumbling_Dishes_Like_Old-Mans_Wishes/Little_Chance\r\nLicense:
-        https://creativecommons.org/licenses/by-sa/4.0\r\n\r\n<b>End Credit Alternate:</b>\r\nAttribution:
-        Phase IV by lo-fi is sci-fi from https://freemusicarchive.org/genre/Lo-fi?sort=interest&d=0&pageSize=20&page=2\r\nLicense:
-        https://creativecommons.org/licenses/by/4.0/\r\n\n\n\n\n<b><u><size=60><align=center>Concept
-        Art</align></size></u></b>\n<b>Main Background:</b>\r\nAttribution: <a href='https://www.freepik.com/vectors/background'>Background
-        vector created by starline - www.freepik.com</a>\r\n\n\n\n<b><u><size=60><align=center>Free
-        Sprites</align></size></u></b>\n<b>Book Logos:</b>\r\nAttribution: <a href='https://www.freepik.com/vectors/logo'>Logo
-        vector created by freepik - www.freepik.com</a>\r\n\r\n<b>Back Arrow Sprite:
-        </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.freepik.com\"
-        title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\nAttribution: <div>Icons
-        made by <a href=\"https://www.freepik.com\" title=\"Freepik\">Freepik</a>
-        from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Home
-        Sprite: </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.freepik.com\"
-        title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\nAttribution: <div>Icons
-        made by <a href=\"https://www.freepik.com\" title=\"Freepik\">Freepik</a>
-        from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Settings
-        Sprite: </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.flaticon.com/authors/srip\"
-        title=\"srip\">srip</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>\r\nAttribution:
-        <div>Icons made by <a href=\"https://www.freepik.com\" title=\"Freepik\">Freepik</a>
-        from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Menu
-        Icon Sprite: </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.flaticon.com/authors/those-icons\"
-        title=\"Those Icons\">Those Icons</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Forward/Backward
-        Icon Sprite: </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.flaticon.com/authors/smashicons\"
-        title=\"Smashicons\">Smashicons</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Play Icon Sprite:
-        </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.freepik.com\"
-        title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Pause Icon Sprite:
-        </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.flaticon.com/authors/pixel-perfect\"
-        title=\"Pixel perfect\">Pixel perfect</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Next Arrow Icon Sprite:
-        </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.flaticon.com/authors/pixel-perfect\"
-        title=\"Pixel perfect\">Pixel perfect</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Resume Icon Sprite:
-        </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.freepik.com\"
-        title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Replay Icon Sprite:
-        </b>\r\nAttribution: <div>Icons made by <a href=\"https://www.freepik.com\"
-        title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Tutorial Icon: </b>\r\nAttribution:
-        <div>Icons made by <a href=\"https://www.freepik.com\" title=\"Freepik\">Freepik</a>
-        from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>\r\n\r\n<b>Tutorial
-        Button:</b>\r\nAttribution: <div>Icons made by <a href=\"https://www.freepik.com\"
-        title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\"
-        title=\"Flaticon\">www.flaticon.com</a></div>\r\n\n\n\n<b><u><size=60><align=center>Book
-        Covers</align></size></u></b>\n<b>The Adventures of Sherlock Holmes</b>\r\nAttribution:
-        Illustration by David Mackintosh\r\n\r\n<b>Treasure Island</b>\r\nAttribution:
-        Illustration by Anna Hermsdorf\r\n\r\n<b>Alice\u2019s Adventures in Wonderland</b>\r\nAttribution:
-        Illustration by Anna Bond\r\n\r\n<b>The Great Gatsby</b>\r\nAttribution:
-        Illustration by Joseph Guadagno\r\n\r\n<b>The War of the Worlds</b>\r\nAttribution:
-        Unknown illustrator. Attribution will be provided as soon as the illustrator
-        is discovered.\r\n\n\n\n<b><u><size=60><align=center>Book Hub Illustrations</align></size></u></b>\n<b>The
-        Adventures of Sherlock Holmes:</b>\r\nAttribution: \u201CArchitectural De-Modernization\u201D
-        by DylanPierpont from https://www.deviantart.com/dylanpierpont/art/Architectural-De-Modernization-515904980\r\n\r\n<b>Alice\u2019s
-        Adventures in Wonderland:</b>\r\nAttribution: \u201Cwonderland\u201D by ibenzani
-        from https://www.deviantart.com/ibenzani/art/wonderland-302770007\r\n\r\n<b>The
-        Great Gatsby:</b>\r\nAttribution: \u201CDieselpunk City\u201D by AngHuiQing
-        from https://www.deviantart.com/anghuiqing/art/Dieselpunk-City-600523168\r\n\r\n<b>The
-        War of the Worlds:</b>\r\nAttribution: \u201CWar of the Worlds\u201D by RadoJavor
-        from https://www.deviantart.com/radojavor/art/War-of-the-Worlds-676734064\r\n\n\n\n<b><u><size=60><align=center>Fonts</align></size></u></b>\n<b>General:</b>\r\nAttribution:
-        \u201CMarket Deco\u201D by Steve Ferrera from dafont.com\r\n\r\n<b>The Adventures
-        of Sherlock Holmes:</b>\r\nAttribution: \u201CSherlock Holmes\u201D by Alphabet
-        & Type from dafont.com\r\n\r\n<b>Treasure Island:</b>\r\nAttribution: \u201CTreasure
-        Island\u201D by No Images Fonts from dafont.com\r\n\r\n<b>Alice\u2019s Adventures
-        in Wonderland:</b>\r\nAttribution: \u201CAlice in Wonderland\u201D by Marco
-        Trujillo L\xF3pez from dafont.com\r\n\r\n<b>The Great Gatsby:</b>\r\nAttribution:
-        \u201CGatsby Inline\u201D by Peter Olexa from dafont.com\r\n\r\n<b>The War
-        of the Worlds:</b>\r\nAttribution: \u201CReal World\u201D by BLKBK Fonts
-        from dafont.com\r\n\n\n\nAll of the books utilized for the Adaptive Reading
-        Series applications are from Public Domain. The authors are attributed for
-        each of their respective books in the library section of the application
-        and the illustrators for the book covers are accredited in the credits.\r\n\r\nAs
-        the creator, the property of this application belongs to Yoonchan (Charles)
-        Sim. This application is developed in collaboration with Justin Evans who
-        provided the clinical research.\r\n\r\nThank you for using Adaptive Reading
-        Series!\r"
+      value: "<b><u><size=60><align=center>Free Sprites</align></size></u></b>\n\n<b>Exit
+        Button:</b>\r\nAttribution: <a target=\"_blank\" href=\"https://icons8.com/icon/17180/xbox-x\">Xbox
+        X</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a>
+        \r\n\r\n<b>Back Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=back
+        \r\n\r\n<b>Restart Chapter Icon: </b>\r\nAttribution: https://fonts.google.com/icons?icon.query=restart
+        \r\n\r\n<b>Play Chapter Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=play
+        \r\n\r\n<b>Pause Chapter Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=play
+        \r\n\r\n<b>Next Chapter Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=next
+        \r\n\r\n<b>More Chapters Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=library
+        \r\n\r\n<b>Settings Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=settings
+        \r\n\r\n<b>Tutorial Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=question
+        \r\n\r\n<b>Finish Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=done
+        \r\n\r\n<b>Next Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=next
+        \r\n\r\n<b>Previous Icon:</b>\r\nAttribution: https://fonts.google.com/icons?icon.query=previous
+        \r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835359178851, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 05051199cc1d6405b9794cb19e72e75b,
+        type: 2}
+    - target: {fileID: 5123477835359178851, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 9063834732111335338, guid: 05051199cc1d6405b9794cb19e72e75b,
+        type: 2}
+    - target: {fileID: 5123477835841833740, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835841833740, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835841833740, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835841833740, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835841833740, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835841833740, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835841833740, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477835841833741, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 5123477835841833741, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5123477836428396464, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836428396464, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5123477836428396464, guid: f4630c5c504c44d22a94abd2add52685,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 10400
       objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787000, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_text
+      value: '<b><u><size=50><align=center>Content Creators</align></size></u></b>
+
+
+        Software
+        Development Programmer - Charles Yoonchan Sim
+
+
+        Software Program
+        Designer - Charles Yoonchan Sim
+
+
+        Clinical Researcher - Justin Evans'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787000, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 05051199cc1d6405b9794cb19e72e75b,
+        type: 2}
+    - target: {fileID: 5123477836448787000, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 9063834732111335338, guid: 05051199cc1d6405b9794cb19e72e75b,
+        type: 2}
+    - target: {fileID: 5123477836448787002, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_Name
+      value: Text (TMP) - Part 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787003, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787003, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787003, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787003, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787003, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787003, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123477836448787003, guid: f4630c5c504c44d22a94abd2add52685,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4630c5c504c44d22a94abd2add52685, type: 3}
+--- !u!224 &5123477835792684087 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5123477836428396464, guid: f4630c5c504c44d22a94abd2add52685,
+    type: 3}
+  m_PrefabInstance: {fileID: 5123477835792684086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5123477835792684088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5123477835359178845, guid: f4630c5c504c44d22a94abd2add52685,
+    type: 3}
+  m_PrefabInstance: {fileID: 5123477835792684086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5123477835792684089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5123477836448787002, guid: f4630c5c504c44d22a94abd2add52685,
+    type: 3}
+  m_PrefabInstance: {fileID: 5123477835792684086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5123477835792684091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5123477836428396467, guid: f4630c5c504c44d22a94abd2add52685,
+    type: 3}
+  m_PrefabInstance: {fileID: 5123477835792684086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5123477835792684092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123477835792684088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &5123477835792684093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123477835792684089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &5123477835792684095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123477835792684091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 200
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0

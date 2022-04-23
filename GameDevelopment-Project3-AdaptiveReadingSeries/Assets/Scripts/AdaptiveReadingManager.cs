@@ -14,14 +14,14 @@ public class AdaptiveReadingManager : MonoBehaviour
     SceneLoader sceneLoader;
 
     //Config Parameters:
-    public static bool PauseIsEnabled = false;
     public static bool AdaptiveReaderResumeIsEnabled = false;
 
 
     [Header("Boolean ON/OFF")]
     [SerializeField] GameObject mainScreenUI;
     [SerializeField] GameObject mainScreenReaderPlayerUI;
-    [SerializeField] GameObject pauseScreenUI;
+    [SerializeField] GameObject moreChaptersOverlayScreenUI;
+    [SerializeField] GameObject settingScreenUI;
     [SerializeField] GameObject adaptiveReaderPlayButton;
     [SerializeField] GameObject adaptiveReaderPauseButton;
 
@@ -50,7 +50,7 @@ public class AdaptiveReadingManager : MonoBehaviour
     [SerializeField] float setFontSize = 42f;
     [SerializeField] float screenWidthSize = 1920f;
     [SerializeField] float numberOfCharactersIncludingSpaces;
-    [SerializeField] float twoPointFourEightTwoFive = 2.482500f;
+    [SerializeField] float contentFinishingConstant = 2.42f; //Note: Lowering the number increases chances of finishing.
     [SerializeField] float half = 0.500000f;
     [SerializeField] float zero = 0f;
 
@@ -110,7 +110,8 @@ public class AdaptiveReadingManager : MonoBehaviour
         //Boolean ON/OFF:
         mainScreenUI.SetActive(true);
         mainScreenReaderPlayerUI.SetActive(true);
-        pauseScreenUI.SetActive(false);
+        moreChaptersOverlayScreenUI.SetActive(false);
+        settingScreenUI.SetActive(false);
         adaptiveReaderPlayButton.SetActive(true);
         adaptiveReaderPauseButton.SetActive(false);
 
@@ -174,7 +175,7 @@ public class AdaptiveReadingManager : MonoBehaviour
         //Rate Calculations Equations:
         numberOfCharactersPerMinute = averageCharactersPerWord * wordsPerMinuteRates;
 
-        widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+        widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
 
         distanceForTextboxToBeUpAgainstScreenRightEdge = (half * widthOfTextboxInUnity) + (half * screenWidthSize);
 
@@ -404,19 +405,6 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<RectTransform>().anchoredPosition = Vector2.LerpUnclamped(startPosition, endPosition, percentageOfLerpCompletion);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
-        {
-            if (PauseIsEnabled)
-            {
-                Resume();
-            }
-
-            else
-            {
-                Pause();
-            }
-        }
-
         if (dropdownAverageCharactersPerWord.value == 0) //4 words
         {
             averageCharactersPerWord = 4f;
@@ -553,7 +541,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 42;
             setFontSize = 42;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -571,7 +559,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 48;
             setFontSize = 48;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -589,7 +577,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 54;
             setFontSize = 54;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -607,7 +595,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 60;
             setFontSize = 60;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -625,7 +613,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 66;
             setFontSize = 66;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -643,7 +631,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 72;
             setFontSize = 72;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -661,7 +649,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 78;
             setFontSize = 78;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -679,7 +667,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 84;
             setFontSize = 84;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -697,7 +685,7 @@ public class AdaptiveReadingManager : MonoBehaviour
             adaptiveReadingTextbox.GetComponent<TextMeshProUGUI>().fontSize = 90;
             setFontSize = 90;
 
-            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / twoPointFourEightTwoFive;
+            widthOfTextboxInUnity = (numberOfCharactersIncludingSpaces * setFontSize) / contentFinishingConstant;
             adaptiveReadingTextbox.GetComponent<RectTransform>().sizeDelta = new Vector2(widthOfTextboxInUnity, setFontSize);
 
             distanceForTextboxToBeUpAgainstScreenRightEdge = half * widthOfTextboxInUnity + half * screenWidthSize;
@@ -765,33 +753,42 @@ public class AdaptiveReadingManager : MonoBehaviour
         }
     }
 
-    public void Resume()
+    public void NavReaderPlayerToMoreChapters()
     {
-        pauseScreenUI.SetActive(false);
-        PauseIsEnabled = false;
+        moreChaptersOverlayScreenUI.SetActive(true);
+        AdaptiveReaderPause();
     }
 
-    public void Pause()
+    public void NavMoreChaptersToReaderPlayer()
     {
-        pauseScreenUI.SetActive(true);
-        Time.timeScale = 0f;
-        PauseIsEnabled = true;
+        moreChaptersOverlayScreenUI.SetActive(false);
+    }
+
+    public void NavReaderPlayerToSettings()
+    {
+        settingScreenUI.SetActive(true);
+        AdaptiveReaderPause();
+    }
+
+    public void NavSettingsToReaderPlayer()
+    {
+        settingScreenUI.SetActive(false);
     }
 
     public void AdaptiveReaderResume()
     {
         adaptiveReaderPlayButton.SetActive(false);
         adaptiveReaderPauseButton.SetActive(true);
-        Time.timeScale = 1f;
         AdaptiveReaderResumeIsEnabled = true;
+        Time.timeScale = 1f;
     }
 
     public void AdaptiveReaderPause()
     {
         adaptiveReaderPauseButton.SetActive(false);
         adaptiveReaderPlayButton.SetActive(true);
-        Time.timeScale = 0f;
         AdaptiveReaderResumeIsEnabled = false;
+        Time.timeScale = 0f;
     }
 
     public void GoToNextChapterButtonPressed()
